@@ -1,0 +1,7 @@
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/lib/zlib.lib
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/bin/zlib.dll
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/lib/zlibstatic.lib
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/include/zconf.h
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/include/zlib.h
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/share/man/man3/zlib.3
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/share/pkgconfig/zlib.pc

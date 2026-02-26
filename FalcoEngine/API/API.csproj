@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3788A351-09D9-4FE6-BAF2-05A3AAFEBCAF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FalcoEngine</RootNamespace>
+    <AssemblyName>FalcoEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Asset.cs" />
+    <Compile Include="Components\NavMeshObstacle.cs" />
+    <Compile Include="Components\Vehicle.cs" />
+    <Compile Include="Materials\BlendingMode.cs" />
+    <Compile Include="Materials\IterationType.cs" />
+    <Compile Include="Materials\Pass.cs" />
+    <Compile Include="Components\BoxCollider.cs" />
+    <Compile Include="Components\CapsuleCollider.cs" />
+    <Compile Include="Components\Collider.cs" />
+    <Compile Include="Components\MeshCollider.cs" />
+    <Compile Include="Components\SphereCollider.cs" />
+    <Compile Include="Core\AutoConstantList.cs" />
+    <Compile Include="Assets\Material.cs" />
+    <Compile Include="Assets\Shader.cs" />
+    <Compile Include="Components\Animation.cs" />
+    <Compile Include="Components\AudioListener.cs" />
+    <Compile Include="Components\AudioSource.cs" />
+    <Compile Include="Components\Component.cs" />
+    <Compile Include="Core\Application.cs" />
+    <Compile Include="Core\Collision.cs" />
+    <Compile Include="Core\Debug.cs" />
+    <Compile Include="Core\EntryPoint.cs" />
+    <Compile Include="Core\GameObject.cs" />
+    <Compile Include="Core\PlayerPrefs.cs" />
+    <Compile Include="Materials\RenderingType.cs" />
+    <Compile Include="Math\Matrix3.cs" />
+    <Compile Include="Math\Random.cs" />
+    <Compile Include="Objects\AttachedObject.cs" />
+    <Compile Include="Objects\Camera.cs" />
+    <Compile Include="Objects\Entity.cs" />
+    <Compile Include="Objects\SubEntity.cs" />
+    <Compile Include="Core\SceneManager.cs" />
+    <Compile Include="Core\Time.cs" />
+    <Compile Include="UI\Button.cs" />
+    <Compile Include="UI\Color.cs" />
+    <Compile Include="Core\Cursor.cs" />
+    <Compile Include="UI\Font.cs" />
+    <Compile Include="UI\GUI.cs" />
+    <Compile Include="Core\Screen.cs" />
+    <Compile Include="UI\Image.cs" />
+    <Compile Include="UI\Text.cs" />
+    <Compile Include="UI\Texture2D.cs" />
+    <Compile Include="UI\UIElement.cs" />
+    <Compile Include="Input\Input.cs" />
+    <Compile Include="Components\NavMeshAgent.cs" />
+    <Compile Include="Core\Prefab.cs" />
+    <Compile Include="Input\ScanCode.cs" />
+    <Compile Include="Math\Mathf.cs" />
+    <Compile Include="Core\MonoBehaviour.cs" />
+    <Compile Include="Core\Physics.cs" />
+    <Compile Include="Math\Matrix4.cs" />
+    <Compile Include="Math\Plane.cs" />
+    <Compile Include="Math\Quaternion.cs" />
+    <Compile Include="Core\RaycastHit.cs" />
+    <Compile Include="Components\Rigidbody.cs" />
+    <Compile Include="Core\Transform.cs" />
+    <Compile Include="Math\Ray.cs" />
+    <Compile Include="Math\Vector2.cs" />
+    <Compile Include="Math\Vector4.cs" />
+    <Compile Include="Math\Vector3.cs" />
+    <Compile Include="PostProcessing\PostEffect.cs" />
+    <Compile Include="PostProcessing\PostEffectPass.cs" />
+    <Compile Include="PostProcessing\PostEffectTargetPass.cs" />
+    <Compile Include="PostProcessing\PostEffectTechnique.cs" />
+    <Compile Include="PostProcessing\PostEffectTexture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>echo F|%25windir%25\system32\xcopy "$(TargetPath)" "$(ProjectDir)..\x64\Release\$(TargetFileName)" /y
+echo F|%25windir%25\system32\xcopy "$(TargetPath)" "$(ProjectDir)..\TestProject\Project\$(TargetFileName)" /y</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

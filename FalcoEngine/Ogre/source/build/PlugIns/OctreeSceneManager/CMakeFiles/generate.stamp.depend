@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/Dev/C++/FalcoEngine/Ogre/source/PlugIns/OctreeSceneManager/CMakeLists.txt
+E:/Programs/CMake/share/cmake-3.10/Modules/exportheader.cmake.in
+D:/Dev/C++/FalcoEngine/Ogre/source/CMake/Templates/VisualStudioUserFile.vcproj.user.in
+D:/Dev/C++/FalcoEngine/Ogre/source/CMake/Templates/VisualStudioUserFile.vcxproj.user.in

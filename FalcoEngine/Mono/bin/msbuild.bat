@@ -1,0 +1,3 @@
+@echo off
+"%~dp0\mono.exe" %MONO_OPTIONS% "%~dp0\..\lib\mono\msbuild\15.0\bin\\MSBuild.dll" %*
+pause

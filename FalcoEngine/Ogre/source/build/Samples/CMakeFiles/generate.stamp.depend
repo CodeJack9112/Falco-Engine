@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/Dev/C++/FalcoEngine/Ogre/source/Samples/CMakeLists.txt
+D:/Dev/C++/FalcoEngine/Ogre/source/CMake/Packages/FindWix.cmake
+D:/Dev/C++/FalcoEngine/Ogre/source/CMake/Utils/FindPkgMacros.cmake

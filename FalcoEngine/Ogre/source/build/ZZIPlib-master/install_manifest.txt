@@ -1,0 +1,8 @@
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/include/zzip/zzip.h
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/include/zzip/types.h
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/include/zzip/conf.h
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/include/zzip/_msvc.h
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/include/zzip/plugin.h
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/include/zzip/fetch.h
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/include/zzip/_config.h
+D:/Dev/C++/FalcoEngine/Ogre/source/build/Dependencies/lib/zzip.lib

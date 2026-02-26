@@ -1,0 +1,32 @@
+
+material Weapons/materials/bulletImpact_sparksMain.material
+{
+	program_shared_parameters
+	{
+	}
+
+	technique Forward
+	{
+		pass main
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+			preprocessor_defines
+			{
+			}
+
+			texture_unit decal
+			{
+				texture_alias decal
+				texture Weapons/textures/txSparkBunch.png
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,122 @@
+
+material Weapons/materials/bulletHole.material
+{
+	program_shared_parameters
+	{
+		diffuseColor vec4 1.000000 1.000000 1.000000 1.000000
+		diffuseMap sampler2D 0
+		normalMap sampler2D 1
+		shininess float 100.000000
+		cutoutValue float 0.500000
+	}
+
+	technique Forward
+	{
+		pass diffuse
+		{
+			lighting off
+
+			preprocessor_defines
+			{
+				define CUTOUT on
+				define HAS_DIFFUSE on
+			}
+
+			vertex_program_ref Shaders/Diffuse.glslv
+			{
+				param_named worldViewProj float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			}
+
+			fragment_program_ref Shaders/Diffuse.glslf
+			{
+				param_named ambientColor float4 0 0 0 0
+				param_named diffuseColor float4 1 1 1 1
+				param_named lightMap int 0
+				param_named useLightMap int 0
+			}
+
+			texture_unit diffuseMap
+			{
+				texture_alias diffuseMap
+				texture Weapons/weapons/textures/decals/hole1D.tga
+				max_anisotropy 8
+				filtering linear linear none
+			}
+		}
+
+		pass lighting
+		{
+			lighting off
+			iteration once_per_light
+			scene_blend add
+			cull_software none
+
+			preprocessor_defines
+			{
+				define CUTOUT on
+				define RECEIVE_SHADOWS on
+				define HAS_DIFFUSE on
+				define HAS_NORMAL on
+			}
+
+			vertex_program_ref Shaders/BumpedSpecular.glslv
+			{
+				param_named shadowViewProj float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named world float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named worldViewProj float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			}
+
+			fragment_program_ref Shaders/BumpedSpecular.glslf
+			{
+				param_named cameraPosition float3 0 0 0
+				param_named castShadows int 0
+				param_named diffuseColor float4 1 1 1 1
+				param_named lightAttenuation float4 0 0 0 0
+				param_named lightDiffuse float4 0 0 0 0
+				param_named lightDirection float4 0 0 0 0
+				param_named lightEnabled int 0
+				param_named lightMap int 0
+				param_named lightMode int 0
+				param_named lightPosition float4 0 0 0 0
+				param_named lightPower float 0
+				param_named lightSpecular float4 0 0 0 0
+				param_named lightType int 0
+				param_named nearClipDistance float 0
+				param_named shadowAASamples float 0
+				param_named shadowBias float 0
+				param_named shadowCascadesBlending int 0
+				param_named shadowCascadesCount int 0
+				param_named shadowMap0 int 0
+				param_named shadowMap1 int 0
+				param_named shadowMap2 int 0
+				param_named shadowMap3 int 0
+				param_named shadowMapPoint int 0
+				param_named shadowViewProj float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named shininess float 100
+				param_named spotlightParams float4 0 0 0 0
+				param_named texMatrixScaleBias1 float4 0 0 0 0
+				param_named texMatrixScaleBias2 float4 0 0 0 0
+				param_named texMatrixScaleBias3 float4 0 0 0 0
+				param_named useLightMap int 0
+				param_named worldViewProj float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			}
+
+			texture_unit diffuseMap
+			{
+				texture_alias diffuseMap
+				texture Weapons/weapons/textures/decals/hole1D.tga
+				max_anisotropy 8
+				filtering linear linear none
+			}
+
+			texture_unit normalMap
+			{
+				texture_alias normalMap
+				texture Weapons/weapons/textures/decals/hole1N2.png
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

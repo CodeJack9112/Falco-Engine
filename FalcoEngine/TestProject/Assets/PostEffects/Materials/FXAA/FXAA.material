@@ -1,0 +1,48 @@
+
+material PostEffects/Materials/FXAA/FXAA.material
+{
+	program_shared_parameters
+	{
+		rt_h auto viewport_height
+		rt_w auto viewport_width
+		worldViewProj auto worldviewproj_matrix
+	}
+
+	technique Forward
+	{
+		pass main
+		{
+			depth_check off
+			cull_hardware none
+			cull_software none
+			polygon_mode_overrideable off
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/FXAA/fxaa.glslv
+			{
+				param_named_auto rt_h viewport_height
+				param_named_auto rt_w viewport_width
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/FXAA/fxaa.glslf
+			{
+				param_named_auto rt_h viewport_height
+				param_named_auto rt_w viewport_width
+				param_named tex0 int 0
+			}
+
+			texture_unit rt0
+			{
+				texture_alias diffuseMap
+				max_anisotropy 8
+				filtering anisotropic anisotropic anisotropic
+			}
+		}
+
+	}
+
+}

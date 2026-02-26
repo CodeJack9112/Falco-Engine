@@ -1,0 +1,97 @@
+
+material Weapons/weapons/Materials/pistol3.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 0.000000
+		cMetalness float 0.500000
+		cReflectance float 0.250000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+	}
+
+	technique Deferred
+	{
+		scheme Deferred
+		pass main
+		{
+			lighting off
+
+			preprocessor_defines
+			{
+				define HAS_DIFFUSE on
+				define HAS_NORMAL off
+				define HAS_METALLIC off
+				define HAS_OCCLUSION off
+				define HAS_EMISSION off
+				define USE_IBL off
+			}
+
+			vertex_program_ref Shaders/DeferredPBR.glslv
+			{
+				param_named world float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named worldView float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named worldViewProj float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			}
+
+			fragment_program_ref Shaders/DeferredPBR.glslf
+			{
+				param_named cDiffuseColor float3 1 1 1
+				param_named cEmissionFactor float 0
+				param_named cMetalness float 0.5
+				param_named cReflectance float 0.25
+				param_named cSpecularity float 1
+				param_named cUVScale float2 0 0
+				param_named farClipDistance float 0
+				param_named lightMap int 0
+				param_named useLightMap int 0
+			}
+
+			texture_unit diffuseMap
+			{
+				texture_alias diffuseMap
+				max_anisotropy 8
+			}
+
+			texture_unit normalMap
+			{
+				texture_alias normalMap
+				max_anisotropy 8
+			}
+
+			texture_unit metallicMap
+			{
+				texture_alias metallicMap
+				max_anisotropy 8
+			}
+
+			texture_unit occlusionMap
+			{
+				texture_alias occlusionMap
+				max_anisotropy 8
+			}
+
+			texture_unit envMap
+			{
+				texture_alias envMap
+				max_anisotropy 8
+			}
+
+			texture_unit emissionMap
+			{
+				texture_alias emissionMap
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

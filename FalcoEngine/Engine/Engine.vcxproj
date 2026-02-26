@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6F39153B-AA58-469B-AF60-4F58F1E2CEC9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>../Ogre/include/OGRE/Bites;../Ogre/include/OGRE/RTShaderSystem;../Ogre/include/OGRE;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\lib</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\lib</OutDir>
+    <IncludePath>../Ogre/include/OGRE/Bites;../Ogre/include/OGRE/RTShaderSystem;../Ogre/include/OGRE;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>../Ogre/include/OGRE/Bites;../Ogre/include/OGRE/RTShaderSystem;../Ogre/include/OGRE;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\lib</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>../;../Ogre/source/Components/Bites/include/;../Ogre/source/Components/RTShaderSystem/include/;../Ogre/source/OgreMain/include/;../Ogre/source/build/include/;../Mono/include/;../OpenAL/include/;../OpenAL/ogg/;../OpenAL/ogg/vorbis/;../Bullet/include/;../FBX/include/;../imgui/;Pathfinding/DebugUtils/Include/;Pathfinding/Detour/Include/;Pathfinding/DetourCrowd/Include/;Pathfinding/DetourTileCache/Include/;Pathfinding/Recast/Include/;PagedGeometry/include/;../Ogre/source/RenderSystems/GL/include/;../Ogre/source/RenderSystems/GL/include/GL/;../Ogre/source/RenderSystems/GLSupport/include/;../Ogre/source/RenderSystems/GL/src/GLSL/include/;../Ogre/source/RenderSystems/GLSupport/include/GLSL/;../LibZip/;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\lib</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <ControlFlowGuard>
+      </ControlFlowGuard>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\imgui\imconfig.h" />
+    <ClInclude Include="..\imgui\imgui.h" />
+    <ClInclude Include="..\imgui\imgui_impl_opengl2.h" />
+    <ClInclude Include="..\imgui\imgui_impl_sdl.h" />
+    <ClInclude Include="..\imgui\imgui_internal.h" />
+    <ClInclude Include="..\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\imgui\imstb_truetype.h" />
+    <ClInclude Include="..\imgui\misc\cpp\imgui_stdlib.h" />
+    <ClInclude Include="AnimationList.h" />
+    <ClInclude Include="API.h" />
+    <ClInclude Include="API_Animation.h" />
+    <ClInclude Include="API_Application.h" />
+    <ClInclude Include="API_Asset.h" />
+    <ClInclude Include="API_AttachedObject.h" />
+    <ClInclude Include="API_AudioListener.h" />
+    <ClInclude Include="API_AudioSource.h" />
+    <ClInclude Include="API_BoxCollider.h" />
+    <ClInclude Include="API_Button.h" />
+    <ClInclude Include="API_Camera.h" />
+    <ClInclude Include="API_CapsuleCollider.h" />
+    <ClInclude Include="API_Collider.h" />
+    <ClInclude Include="API_Component.h" />
+    <ClInclude Include="API_Cursor.h" />
+    <ClInclude Include="API_Debug.h" />
+    <ClInclude Include="API_Entity.h" />
+    <ClInclude Include="API_GameObject.h" />
+    <ClInclude Include="API_GUI.h" />
+    <ClInclude Include="API_Image.h" />
+    <ClInclude Include="API_Input.h" />
+    <ClInclude Include="API_Material.h" />
+    <ClInclude Include="API_MeshCollider.h" />
+    <ClInclude Include="API_MonoBehaviour.h" />
+    <ClInclude Include="API_NavMeshAgent.h" />
+    <ClInclude Include="API_Physics.h" />
+    <ClInclude Include="API_PlayerPrefs.h" />
+    <ClInclude Include="API_PostEffect.h" />
+    <ClInclude Include="API_Prefab.h" />
+    <ClInclude Include="API_Quaternion.h" />
+    <ClInclude Include="API_Random.h" />
+    <ClInclude Include="API_RigidBody.h" />
+    <ClInclude Include="API_SceneManager.h" />
+    <ClInclude Include="API_Screen.h" />
+    <ClInclude Include="API_Shader.h" />
+    <ClInclude Include="API_SphereCollider.h" />
+    <ClInclude Include="API_SubEntity.h" />
+    <ClInclude Include="API_Text.h" />
+    <ClInclude Include="API_Texture.h" />
+    <ClInclude Include="API_Time.h" />
+    <ClInclude Include="API_Transform.h" />
+    <ClInclude Include="API_UIElement.h" />
+    <ClInclude Include="API_Vehicle.h" />
+    <ClInclude Include="AssetsTools.h" />
+    <ClInclude Include="AudioListener.h" />
+    <ClInclude Include="AudioSource.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="CapsuleCollider.h" />
+    <ClInclude Include="CharacterJoint.h" />
+    <ClInclude Include="CloneTools.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="DeferredShading\AmbientLight.h" />
+    <ClInclude Include="DeferredShading\CSMGpuConstants.h" />
+    <ClInclude Include="DeferredShading\DeferredLightCP.h" />
+    <ClInclude Include="DeferredShading\DeferredShading.h" />
+    <ClInclude Include="DeferredShading\DLight.h" />
+    <ClInclude Include="DeferredShading\GeomUtils.h" />
+    <ClInclude Include="DeferredShading\GpuProgramSources.h" />
+    <ClInclude Include="DeferredShading\LightMaterialGenerator.h" />
+    <ClInclude Include="DeferredShading\ListenerFactoryLogic.h" />
+    <ClInclude Include="DeferredShading\MaterialGenerator.h" />
+    <ClInclude Include="DeferredShading\MaterialSchemeHandler.h" />
+    <ClInclude Include="DeferredShading\ShadowCameraSetupStableCSM.h" />
+    <ClInclude Include="DeferredShading\TerrainMaterialGeneratorD.h" />
+    <ClInclude Include="DynamicLines.h" />
+    <ClInclude Include="DynamicRenderable.h" />
+    <ClInclude Include="EditorSettings.h" />
+    <ClInclude Include="Empty.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Euler.h" />
+    <ClInclude Include="fastlz\fastlz.h" />
+    <ClInclude Include="FBXCache.h" />
+    <ClInclude Include="FBXSceneManager.h" />
+    <ClInclude Include="FBXScene.h" />
+    <ClInclude Include="FixedJoint.h" />
+    <ClInclude Include="Gizmo2.h" />
+    <ClInclude Include="GUIDGenerator.h" />
+    <ClInclude Include="GUI\ImguiManager.h" />
+    <ClInclude Include="GUI\ImguiRenderable.h" />
+    <ClInclude Include="GUI\ImGUIWidgets.h" />
+    <ClInclude Include="HingeJoint.h" />
+    <ClInclude Include="ImGuizmo.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="IO.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="NavMeshObstacle.h" />
+    <ClInclude Include="PlayerPrefs.h" />
+    <ClInclude Include="PostEffectListener.h" />
+    <ClInclude Include="ResourceMap.h" />
+    <ClInclude Include="SFixedJoint.h" />
+    <ClInclude Include="SkinnedMeshDeformer.h" />
+    <ClInclude Include="SLightmapSettings.h" />
+    <ClInclude Include="mathf.h" />
+    <ClInclude Include="MeshCollider.h" />
+    <ClInclude Include="MeshUtilities.h" />
+    <ClInclude Include="NavigationManager.h" />
+    <ClInclude Include="NavMeshAgent.h" />
+    <ClInclude Include="NavMeshCache.h" />
+    <ClInclude Include="PagedGeometry\include\BatchedGeometry.h" />
+    <ClInclude Include="PagedGeometry\include\BatchPage.h" />
+    <ClInclude Include="PagedGeometry\include\GrassLoader.h" />
+    <ClInclude Include="PagedGeometry\include\ImpostorPage.h" />
+    <ClInclude Include="PagedGeometry\include\MersenneTwister.h" />
+    <ClInclude Include="PagedGeometry\include\PagedGeometry.h" />
+    <ClInclude Include="PagedGeometry\include\PagedGeometryConfig.h" />
+    <ClInclude Include="PagedGeometry\include\PropertyMaps.h" />
+    <ClInclude Include="PagedGeometry\include\RandomTable.h" />
+    <ClInclude Include="PagedGeometry\include\StaticBillboardSet.h" />
+    <ClInclude Include="PagedGeometry\include\TreeLoader2D.h" />
+    <ClInclude Include="PagedGeometry\include\TreeLoader3D.h" />
+    <ClInclude Include="PagedGeometry\include\WindBatchedGeometry.h" />
+    <ClInclude Include="PagedGeometry\include\WindBatchPage.h" />
+    <ClInclude Include="Pathfinding\ChunkyTriMesh.h" />
+    <ClInclude Include="Pathfinding\DebugUtils\Include\DebugDraw.h" />
+    <ClInclude Include="Pathfinding\DebugUtils\Include\DetourDebugDraw.h" />
+    <ClInclude Include="Pathfinding\DebugUtils\Include\RecastDebugDraw.h" />
+    <ClInclude Include="Pathfinding\DebugUtils\Include\RecastDump.h" />
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourCrowd.h" />
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourLocalBoundary.h" />
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourObstacleAvoidance.h" />
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourPathCorridor.h" />
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourPathQueue.h" />
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourProximityGrid.h" />
+    <ClInclude Include="Pathfinding\DetourTileCache\Include\DetourTileCache.h" />
+    <ClInclude Include="Pathfinding\DetourTileCache\Include\DetourTileCacheBuilder.h" />
+    <ClInclude Include="Pathfinding\Detour\Include\DetourAlloc.h" />
+    <ClInclude Include="Pathfinding\Detour\Include\DetourAssert.h" />
+    <ClInclude Include="Pathfinding\Detour\Include\DetourCommon.h" />
+    <ClInclude Include="Pathfinding\Detour\Include\DetourMath.h" />
+    <ClInclude Include="Pathfinding\Detour\Include\DetourNavMesh.h" />
+    <ClInclude Include="Pathfinding\Detour\Include\DetourNavMeshBuilder.h" />
+    <ClInclude Include="Pathfinding\Detour\Include\DetourNavMeshQuery.h" />
+    <ClInclude Include="Pathfinding\Detour\Include\DetourNode.h" />
+    <ClInclude Include="Pathfinding\Detour\Include\DetourStatus.h" />
+    <ClInclude Include="Pathfinding\InputGeom.h" />
+    <ClInclude Include="Pathfinding\MeshLoaderObj.h" />
+    <ClInclude Include="Pathfinding\PerfTimer.h" />
+    <ClInclude Include="Pathfinding\Recast\Include\Recast.h" />
+    <ClInclude Include="Pathfinding\Recast\Include\RecastAlloc.h" />
+    <ClInclude Include="Pathfinding\Recast\Include\RecastAssert.h" />
+    <ClInclude Include="Procedural\Procedural.h" />
+    <ClInclude Include="Procedural\ProceduralBoxGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralCapsuleGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralConeGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralCylinderGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralExtruder.h" />
+    <ClInclude Include="Procedural\ProceduralGeometryHelpers.h" />
+    <ClInclude Include="Procedural\ProceduralIcoSphereGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralLathe.h" />
+    <ClInclude Include="Procedural\ProceduralMeshGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralMultiShape.h" />
+    <ClInclude Include="Procedural\ProceduralPath.h" />
+    <ClInclude Include="Procedural\ProceduralPathGenerators.h" />
+    <ClInclude Include="Procedural\ProceduralPlaneGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralPlatform.h" />
+    <ClInclude Include="Procedural\ProceduralRoot.h" />
+    <ClInclude Include="Procedural\ProceduralRoundedBoxGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralShape.h" />
+    <ClInclude Include="Procedural\ProceduralShapeGenerators.h" />
+    <ClInclude Include="Procedural\ProceduralSphereGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralSplines.h" />
+    <ClInclude Include="Procedural\ProceduralStableHeaders.h" />
+    <ClInclude Include="Procedural\ProceduralTorusGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralTorusKnotGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralTrack.h" />
+    <ClInclude Include="Procedural\ProceduralTriangleBuffer.h" />
+    <ClInclude Include="Procedural\ProceduralTriangulator.h" />
+    <ClInclude Include="Procedural\ProceduralTubeGenerator.h" />
+    <ClInclude Include="Procedural\ProceduralUtils.h" />
+    <ClInclude Include="SAnimationList.h" />
+    <ClInclude Include="SBoxCollider.h" />
+    <ClInclude Include="SCapsuleCollider.h" />
+    <ClInclude Include="SCharacterJoint.h" />
+    <ClInclude Include="SDetailMeshData.h" />
+    <ClInclude Include="SelectionBox.h" />
+    <ClInclude Include="SGrassData.h" />
+    <ClInclude Include="SHingeJoint.h" />
+    <ClInclude Include="SkeletonBone.h" />
+    <ClInclude Include="SMonoFieldInfo.h" />
+    <ClInclude Include="SNavMeshAgent.h" />
+    <ClInclude Include="SNavMeshObstacle.h" />
+    <ClInclude Include="SNavMeshSettings.h" />
+    <ClInclude Include="Sound\dr_wav.h" />
+    <ClInclude Include="SParticleSystem.h" />
+    <ClInclude Include="SphereCollider.h" />
+    <ClInclude Include="SSkeletonBone.h" />
+    <ClInclude Include="SSphereCollider.h" />
+    <ClInclude Include="STerrain.h" />
+    <ClInclude Include="STextureData.h" />
+    <ClInclude Include="SUIEvent.h" />
+    <ClInclude Include="SVehicle.h" />
+    <ClInclude Include="TerrainManager.h" />
+    <ClInclude Include="TrianglePacker\xatlas.h" />
+    <ClInclude Include="UIEvent.h" />
+    <ClInclude Include="MonoRuntime.h" />
+    <ClInclude Include="OgreIncludes.h" />
+    <ClInclude Include="PhysicsManager.h" />
+    <ClInclude Include="ProjectSettings.h" />
+    <ClInclude Include="RaycastGeometry.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="SAudioListener.h" />
+    <ClInclude Include="SAudioSource.h" />
+    <ClInclude Include="SCamera.h" />
+    <ClInclude Include="SceneSerializer.h" />
+    <ClInclude Include="SColor.h" />
+    <ClInclude Include="SComponent.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="SEmpty.h" />
+    <ClInclude Include="SEntity.h" />
+    <ClInclude Include="SLight.h" />
+    <ClInclude Include="SMeshCollider.h" />
+    <ClInclude Include="SMonoScript.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="SQuaternion.h" />
+    <ClInclude Include="SRigidBody.h" />
+    <ClInclude Include="SScene.h" />
+    <ClInclude Include="SSceneNode.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StringConverter.h" />
+    <ClInclude Include="SUIButton.h" />
+    <ClInclude Include="SUICanvas.h" />
+    <ClInclude Include="SUIElement.h" />
+    <ClInclude Include="SUIImage.h" />
+    <ClInclude Include="SUIText.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="SVector.h" />
+    <ClInclude Include="UIButton.h" />
+    <ClInclude Include="UICanvas.h" />
+    <ClInclude Include="UIElement.h" />
+    <ClInclude Include="UIImage.h" />
+    <ClInclude Include="UIManager.h" />
+    <ClInclude Include="UIText.h" />
+    <ClInclude Include="Vehicle.h" />
+    <ClInclude Include="ZipHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\imgui\imgui.cpp" />
+    <ClCompile Include="..\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\imgui\imgui_impl_opengl2.cpp" />
+    <ClCompile Include="..\imgui\imgui_impl_sdl.cpp" />
+    <ClCompile Include="..\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\imgui\misc\cpp\imgui_stdlib.cpp" />
+    <ClCompile Include="AnimationList.cpp" />
+    <ClCompile Include="API.cpp" />
+    <ClCompile Include="API_Animation.cpp" />
+    <ClCompile Include="API_Application.cpp" />
+    <ClCompile Include="API_Asset.cpp" />
+    <ClCompile Include="API_AttachedObject.cpp" />
+    <ClCompile Include="API_AudioListener.cpp" />
+    <ClCompile Include="API_AudioSource.cpp" />
+    <ClCompile Include="API_BoxCollider.cpp" />
+    <ClCompile Include="API_Button.cpp" />
+    <ClCompile Include="API_Camera.cpp" />
+    <ClCompile Include="API_CapsuleCollider.cpp" />
+    <ClCompile Include="API_Collider.cpp" />
+    <ClCompile Include="API_Component.cpp" />
+    <ClCompile Include="API_Cursor.cpp" />
+    <ClCompile Include="API_Debug.cpp" />
+    <ClCompile Include="API_Entity.cpp" />
+    <ClCompile Include="API_GameObject.cpp" />
+    <ClCompile Include="API_GUI.cpp" />
+    <ClCompile Include="API_Image.cpp" />
+    <ClCompile Include="API_Input.cpp" />
+    <ClCompile Include="API_Material.cpp" />
+    <ClCompile Include="API_MeshCollider.cpp" />
+    <ClCompile Include="API_MonoBehaviour.cpp" />
+    <ClCompile Include="API_NavMeshAgent.cpp" />
+    <ClCompile Include="API_Physics.cpp" />
+    <ClCompile Include="API_PlayerPrefs.cpp" />
+    <ClCompile Include="API_PostEffect.cpp" />
+    <ClCompile Include="API_Prefab.cpp" />
+    <ClCompile Include="API_Quaternion.cpp" />
+    <ClCompile Include="API_Random.cpp" />
+    <ClCompile Include="API_RigidBody.cpp" />
+    <ClCompile Include="API_SceneManager.cpp" />
+    <ClCompile Include="API_Screen.cpp" />
+    <ClCompile Include="API_Shader.cpp" />
+    <ClCompile Include="API_SphereCollider.cpp" />
+    <ClCompile Include="API_SubEntity.cpp" />
+    <ClCompile Include="API_Text.cpp" />
+    <ClCompile Include="API_Texture.cpp" />
+    <ClCompile Include="API_Time.cpp" />
+    <ClCompile Include="API_Transform.cpp" />
+    <ClCompile Include="API_UIElement.cpp" />
+    <ClCompile Include="API_Vehicle.cpp" />
+    <ClCompile Include="AssetsTools.cpp" />
+    <ClCompile Include="AudioListener.cpp" />
+    <ClCompile Include="AudioSource.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="CapsuleCollider.cpp" />
+    <ClCompile Include="CharacterJoint.cpp" />
+    <ClCompile Include="CloneTools.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="DeferredShading\AmbientLight.cpp" />
+    <ClCompile Include="DeferredShading\CSMGpuConstants.cpp" />
+    <ClCompile Include="DeferredShading\DeferredLightCP.cpp" />
+    <ClCompile Include="DeferredShading\DeferredShading.cpp" />
+    <ClCompile Include="DeferredShading\DLight.cpp" />
+    <ClCompile Include="DeferredShading\GeomUtils.cpp" />
+    <ClCompile Include="DeferredShading\GpuProgramSources.cpp" />
+    <ClCompile Include="DeferredShading\LightMaterialGenerator.cpp" />
+    <ClCompile Include="DeferredShading\MaterialGenerator.cpp" />
+    <ClCompile Include="DeferredShading\ShadowCameraSetupStableCSM.cpp" />
+    <ClCompile Include="DeferredShading\TerrainMaterialGeneratorD.cpp" />
+    <ClCompile Include="DynamicLines.cpp" />
+    <ClCompile Include="DynamicRenderable.cpp" />
+    <ClCompile Include="EditorSettings.cpp" />
+    <ClCompile Include="Empty.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="fastlz\fastlz.c" />
+    <ClCompile Include="FBXCache.cpp" />
+    <ClCompile Include="FBXSceneManager.cpp" />
+    <ClCompile Include="FBXScene.cpp" />
+    <ClCompile Include="FixedJoint.cpp" />
+    <ClCompile Include="Gizmo2.cpp" />
+    <ClCompile Include="GUIDGenerator.cpp" />
+    <ClCompile Include="GUI\ImguiManager.cpp" />
+    <ClCompile Include="GUI\ImguiRenderable.cpp" />
+    <ClCompile Include="GUI\ImGUIWidgets.cpp" />
+    <ClCompile Include="HingeJoint.cpp" />
+    <ClCompile Include="ImGuizmo.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="IO.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="MeshCollider.cpp" />
+    <ClCompile Include="MeshUtilities.cpp" />
+    <ClCompile Include="MonoRuntime.cpp" />
+    <ClCompile Include="NavigationManager.cpp" />
+    <ClCompile Include="NavMeshAgent.cpp" />
+    <ClCompile Include="NavMeshCache.cpp" />
+    <ClCompile Include="NavMeshObstacle.cpp" />
+    <ClCompile Include="PagedGeometry\source\BatchedGeometry.cpp" />
+    <ClCompile Include="PagedGeometry\source\BatchPage.cpp" />
+    <ClCompile Include="PagedGeometry\source\GrassLoader.cpp" />
+    <ClCompile Include="PagedGeometry\source\ImpostorPage.cpp" />
+    <ClCompile Include="PagedGeometry\source\PagedGeometry.cpp" />
+    <ClCompile Include="PagedGeometry\source\PropertyMaps.cpp" />
+    <ClCompile Include="PagedGeometry\source\StaticBillboardSet.cpp" />
+    <ClCompile Include="PagedGeometry\source\TreeLoader2D.cpp" />
+    <ClCompile Include="PagedGeometry\source\TreeLoader3D.cpp" />
+    <ClCompile Include="PagedGeometry\source\WindBatchedGeometry.cpp" />
+    <ClCompile Include="PagedGeometry\source\WindBatchPage.cpp" />
+    <ClCompile Include="Pathfinding\ChunkyTriMesh.cpp" />
+    <ClCompile Include="Pathfinding\DebugUtils\Source\DebugDraw.cpp" />
+    <ClCompile Include="Pathfinding\DebugUtils\Source\DetourDebugDraw.cpp" />
+    <ClCompile Include="Pathfinding\DebugUtils\Source\RecastDebugDraw.cpp" />
+    <ClCompile Include="Pathfinding\DebugUtils\Source\RecastDump.cpp" />
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourCrowd.cpp" />
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourLocalBoundary.cpp" />
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourObstacleAvoidance.cpp" />
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourPathCorridor.cpp" />
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourPathQueue.cpp" />
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourProximityGrid.cpp" />
+    <ClCompile Include="Pathfinding\DetourTileCache\Source\DetourTileCache.cpp" />
+    <ClCompile Include="Pathfinding\DetourTileCache\Source\DetourTileCacheBuilder.cpp" />
+    <ClCompile Include="Pathfinding\Detour\Source\DetourAlloc.cpp" />
+    <ClCompile Include="Pathfinding\Detour\Source\DetourAssert.cpp" />
+    <ClCompile Include="Pathfinding\Detour\Source\DetourCommon.cpp" />
+    <ClCompile Include="Pathfinding\Detour\Source\DetourNavMesh.cpp" />
+    <ClCompile Include="Pathfinding\Detour\Source\DetourNavMeshBuilder.cpp" />
+    <ClCompile Include="Pathfinding\Detour\Source\DetourNavMeshQuery.cpp" />
+    <ClCompile Include="Pathfinding\Detour\Source\DetourNode.cpp" />
+    <ClCompile Include="Pathfinding\InputGeom.cpp" />
+    <ClCompile Include="Pathfinding\MeshLoaderObj.cpp" />
+    <ClCompile Include="Pathfinding\PerfTimer.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\Recast.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastAlloc.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastArea.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastAssert.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastContour.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastFilter.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastLayers.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastMesh.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastMeshDetail.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastRasterization.cpp" />
+    <ClCompile Include="Pathfinding\Recast\Source\RecastRegion.cpp" />
+    <ClCompile Include="PhysicsManager.cpp" />
+    <ClCompile Include="PlayerPrefs.cpp" />
+    <ClCompile Include="PostEffectListener.cpp" />
+    <ClCompile Include="Procedural\ProceduralBoxGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralCapsuleGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralConeGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralCylinderGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralExtruder.cpp" />
+    <ClCompile Include="Procedural\ProceduralGeometryHelpers.cpp" />
+    <ClCompile Include="Procedural\ProceduralIcoSphereGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralLathe.cpp" />
+    <ClCompile Include="Procedural\ProceduralMultiShape.cpp" />
+    <ClCompile Include="Procedural\ProceduralPath.cpp" />
+    <ClCompile Include="Procedural\ProceduralPathGenerators.cpp" />
+    <ClCompile Include="Procedural\ProceduralPlaneGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralPrecompiledHeaders.cpp" />
+    <ClCompile Include="Procedural\ProceduralRoot.cpp" />
+    <ClCompile Include="Procedural\ProceduralRoundedBoxGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralShape.cpp" />
+    <ClCompile Include="Procedural\ProceduralShapeGenerators.cpp" />
+    <ClCompile Include="Procedural\ProceduralSphereGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralTorusGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralTorusKnotGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralTrack.cpp" />
+    <ClCompile Include="Procedural\ProceduralTriangulator.cpp" />
+    <ClCompile Include="Procedural\ProceduralTubeGenerator.cpp" />
+    <ClCompile Include="Procedural\ProceduralUtils.cpp" />
+    <ClCompile Include="ProjectSettings.cpp" />
+    <ClCompile Include="RaycastGeometry.cpp" />
+    <ClCompile Include="ResourceMap.cpp" />
+    <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="SceneSerializer.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="SelectionBox.cpp" />
+    <ClCompile Include="SkeletonBone.cpp" />
+    <ClCompile Include="SkinnedMeshDeformer.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SphereCollider.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StringConverter.cpp" />
+    <ClCompile Include="TerrainManager.cpp" />
+    <ClCompile Include="TrianglePacker\xatlas.cpp" />
+    <ClCompile Include="UIButton.cpp" />
+    <ClCompile Include="UICanvas.cpp" />
+    <ClCompile Include="UIElement.cpp" />
+    <ClCompile Include="UIImage.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+    <ClCompile Include="UIText.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+    <ClCompile Include="ZipHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

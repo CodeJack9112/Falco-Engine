@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\CMakeFiles\606ab160940a490087b07c7c9f346ba9\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{703B7B1B-FA79-36BA-9D92-8084B665EDDE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

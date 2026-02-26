@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\PlugIns\OctreeZone\src\OgreOctreeZone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\PlugIns\OctreeZone\src\OgreOctreeZoneDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\PlugIns\OctreeZone\src\OgreOctreeZoneOctree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\PlugIns\OctreeZone\src\OgreOctreeZonePlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\PlugIns\OctreeZone\include\OgreOctreeZone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\PlugIns\OctreeZone\include\OgreOctreeZoneOctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\PlugIns\OctreeZone\include\OgreOctreeZonePlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\include\OgreOctreeZonePrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2347C19C-ACEE-3AAE-B5D9-EBE73B80EF9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DB20CD42-8D17-33FC-8559-E9BB43ED0364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,123 @@
+
+material PostEffects/Materials/SSR/SSR.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 1.000000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+		worldViewProj auto worldviewproj_matrix
+		bgl_DepthTexture sampler2D 1
+		bgl_RenderedTextureHeight auto viewport_height
+		bgl_RenderedTextureWidth auto viewport_width
+		reflectance float 0.100000
+		roughness float 0.000000
+		samples int 1
+		bloom_brightnessThreshold float 0.300000
+		bloom_vecThreshold vec3 0.212600 0.715200 0.072200
+		positionMap sampler2D 1
+		normalMap sampler2D 2
+		projection auto projection_matrix
+		ssr_LLimiter float 0.100000
+		ssr_binarySearchCount int 10
+		ssr_minRayStep float 0.200000
+		ssr_rayMarchCount int 30
+		ssr_step float 0.050000
+		view auto view_matrix
+		posTexture sampler2D 2
+		DepthTexture sampler2D 1
+		RenderedTexture sampler2D 0
+		RenderedTextureHeight auto viewport_height
+		RenderedTextureWidth auto viewport_width
+		PosTexture sampler2D 2
+		mWorldViewProject auto worldviewproj_matrix
+		InverseViewProjection auto inverse_viewproj_matrix
+		fragView auto view_direction
+		_fragView auto view_direction
+		InvPMatrix auto inverse_projection_matrix
+		_InvViewProj auto inverse_viewproj_matrix
+		_Time auto frame_time
+		_ViewProj auto viewproj_matrix
+		_WorldSpaceCameraPos float 0.000000
+		_RaytraceMaxLength float 0.800000
+		_RaytraceMaxThickness float 0.400000
+		_ReflectionEnhancer float 1.000000
+		_AccumulationBlendRatio float 1.000000
+		cameraPosition auto camera_position
+		edgeFactorPower vec4 1.000000 1.000000 1.000000 1.000000
+		invViewProj auto inverse_viewproj_matrix
+		reflectionDistanceFadeFactor vec4 1.000000 1.000000 1.000000 1.000000
+		s_depthTexture sampler2D 1
+		viewProj auto viewproj_matrix
+		gFinalImage sampler2D 0
+		gPosition sampler2D 1
+		invView auto world_matrix
+		invprojection auto inverse_projection_matrix
+		ColorBuffer sampler2D 4
+		gNormal sampler2D 2
+		gExtraComponents sampler2D 3
+		s_normalTexture sampler2D 2
+		invProj auto projection_matrix
+		NormalTexture sampler2D 2
+		MetallicTexture sampler2D 2
+	}
+
+	technique Forward
+	{
+		pass main
+		{
+			depth_check off
+			depth_write off
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/SSR/ssr.glslv
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/SSR/ssr.glslf
+			{
+				param_named DepthTexture int 1
+				param_named MetallicTexture int 2
+				param_named RenderedTexture int 0
+				param_named_auto RenderedTextureHeight viewport_height
+				param_named_auto RenderedTextureWidth viewport_width
+				param_named roughness float 0
+			}
+
+			texture_unit map1
+			{
+				texture_alias diffuseMap
+				max_anisotropy 8
+				filtering anisotropic anisotropic point
+			}
+
+			texture_unit map2
+			{
+				texture_alias normalMap
+				max_anisotropy 8
+				filtering none none none
+			}
+
+			texture_unit map3
+			{
+				texture_alias newTextureUnit
+				max_anisotropy 8
+				filtering none none none
+			}
+		}
+
+	}
+
+}

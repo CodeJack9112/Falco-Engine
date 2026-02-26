@@ -1,0 +1,55 @@
+
+material Weapons/weapons/MuzzleFlash/Materials/1.material
+{
+	program_shared_parameters
+	{
+		cWorldViewProj auto worldviewproj_matrix
+		diffuseColor vec4 1.000000 1.000000 1.000000 0.300000
+		diffuseMap sampler2D 0
+		diffuseColor2 vec4 1.000000 1.000000 1.000000 1.000000
+		cutoutValue float 0.900000
+		emissionFactor float 2.000000
+		emissionColor vec4 1.000000 1.000000 1.000000 1.000000
+	}
+
+	technique Forward
+	{
+		pass perlight
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+			preprocessor_defines
+			{
+				define CUTOUT off
+				define HAS_DIFFUSE on
+				define HAS_EMISSION on
+			}
+
+			vertex_program_ref Shaders/Diffuse.glslv
+			{
+				param_named worldViewProj float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			}
+
+			fragment_program_ref Shaders/Diffuse.glslf
+			{
+				param_named ambientColor float4 0 0 0 0
+				param_named diffuseColor float4 1 1 1 0.3
+				param_named lightMap int 0
+				param_named useLightMap int 0
+			}
+
+			texture_unit diffuseMap
+			{
+				texture_alias diffuseMap
+				texture Weapons/weapons/MuzzleFlash/MuzzleFlash01.psd
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

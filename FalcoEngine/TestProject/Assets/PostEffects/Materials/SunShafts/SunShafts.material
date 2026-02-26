@@ -1,0 +1,72 @@
+
+material PostEffects/Materials/SunShafts/SunShafts.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 1.000000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+		worldViewProj auto worldviewproj_matrix
+		firstPass sampler2D 1
+		lightPositionOnScreen float 0.000000
+		weight float 0.150000
+		decay float 0.970000
+		density float 0.900000
+		exposure float 0.600000
+		rt0 sampler2D 0
+		iResolution auto viewport_size
+	}
+
+	technique Deferred
+	{
+		pass main
+		{
+			depth_check off
+			cull_hardware none
+			cull_software none
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/SunShafts/SunShafts.glslv
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/SunShafts/SunShafts.glslf
+			{
+				param_named decay float 0.97
+				param_named density float 0.9
+				param_named exposure float 0.6
+				param_named firstPass int 1
+				param_named_auto iResolution viewport_size
+				param_named lightPositionOnScreen float3 0 0 0
+				param_named rt0 int 0
+				param_named weight float 0.15
+			}
+
+			texture_unit rt0
+			{
+				texture_alias rt0
+				max_anisotropy 8
+			}
+
+			texture_unit rt1
+			{
+				texture_alias rt1
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

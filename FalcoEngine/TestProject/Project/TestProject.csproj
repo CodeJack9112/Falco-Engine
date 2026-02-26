@@ -1,0 +1,82 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Project ToolsVersion = "15.0" xmlns = "http://schemas.microsoft.com/developer/msbuild/2003">
+<Import Project = "$(MSBuildExtensionsPath)$(MSBuildToolsVersion)Microsoft.Common.props" Condition = "Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)Microsoft.Common.props')" />
+<PropertyGroup>
+<Configuration Condition = " '$(Configuration)' == '' ">Debug</Configuration>
+<Platform Condition = " '$(Platform)' == '' ">AnyCPU</Platform>
+<ProjectGuid>{73de69ee-2b95-5c20-e562-407daebc0d60}</ProjectGuid>
+<OutputType>Library</OutputType>
+<AppDesignerFolder>Properties</AppDesignerFolder>
+<RootNamespace>TestProject</RootNamespace>
+<AssemblyName>TestProject</AssemblyName>
+<TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+<FileAlignment>512</FileAlignment>
+</PropertyGroup>
+<PropertyGroup Condition = " '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+<DebugSymbols>true</DebugSymbols>
+<DebugType>full</DebugType>
+<Optimize>false</Optimize>
+<OutputPath>bin\Debug\</OutputPath>
+<DefineConstants>DEBUG; TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+</PropertyGroup>
+<PropertyGroup Condition = " '$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+<DebugType>pdbonly</DebugType>
+<Optimize>true</Optimize>
+<OutputPath>bin\Release\</OutputPath>
+<DefineConstants>TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+</PropertyGroup>
+<ItemGroup>
+<Reference Include = "FalcoEngine">
+<HintPath>..\FalcoEngine.dll</HintPath>
+</Reference>
+<Reference Include = "System" />
+<Reference Include = "System.Core" />
+<Reference Include = "System.Xml.Linq" />
+<Reference Include = "System.Data.DataSetExtensions" />
+<Reference Include = "Microsoft.CSharp" />
+<Reference Include = "System.Data" />
+<Reference Include = "System.Net.Http" />
+<Reference Include = "System.Xml" />
+</ItemGroup>
+<ItemGroup>
+<Compile Include="..\Assets\Car Demo\\DemoVehicle.cs" />
+<Compile Include="..\Assets\Car Demo\\LookAtCamera.cs" />
+<Compile Include="..\Assets\PostEffects\\Scripts\\BloomEffect.cs" />
+<Compile Include="..\Assets\PostEffects\\Scripts\\Fog.cs" />
+<Compile Include="..\Assets\PostEffects\\Scripts\\FXAA.cs" />
+<Compile Include="..\Assets\PostEffects\\Scripts\\SSAO.cs" />
+<Compile Include="..\Assets\PostEffects\\Scripts\\SSR.cs" />
+<Compile Include="..\Assets\PostEffects\\Scripts\\SunShafts.cs" />
+<Compile Include="..\Assets\Scripts\\Arkanoid\\Ball.cs" />
+<Compile Include="..\Assets\Scripts\\Arkanoid\\Block.cs" />
+<Compile Include="..\Assets\Scripts\\Arkanoid\\MainMenu.cs" />
+<Compile Include="..\Assets\Scripts\\Arkanoid\\Racket.cs" />
+<Compile Include="..\Assets\Scripts\\Weapons\\Weapon.cs" />
+<Compile Include="..\Assets\Scripts\\Weapons\\WeaponCarbine.cs" />
+<Compile Include="..\Assets\Scripts\\Weapons\\WeaponHMG.cs" />
+<Compile Include="..\Assets\Scripts\\Weapons\\WeaponPistol.cs" />
+<Compile Include="..\Assets\Scripts\\Weapons\\WeaponQk47.cs" />
+<Compile Include="..\Assets\Scripts\\Weapons\\WeaponShotgun.cs" />
+<Compile Include="..\Assets\Scripts\\Weapons\\WeaponSMG.cs" />
+<Compile Include="..\Assets\Scripts\\Weapons\\WeaponSniper.cs" />
+<Compile Include="..\Assets\Scripts\\CameraController.cs" />
+<Compile Include="..\Assets\Scripts\\FlyingCamera.cs" />
+<Compile Include="..\Assets\Scripts\\FPSController.cs" />
+<Compile Include="..\Assets\Scripts\\ItemPickup.cs" />
+<Compile Include="..\Assets\Scripts\\ItemPickupWeapon.cs" />
+<Compile Include="..\Assets\Scripts\\MonsterController.cs" />
+<Compile Include="..\Assets\Scripts\\NPCOptimizer.cs" />
+<Compile Include="..\Assets\Scripts\\PlayerController.cs" />
+<Compile Include="..\Assets\Scripts\\RestartMenu.cs" />
+<Compile Include="..\Assets\Scripts\\RotateObject.cs" />
+<Compile Include="..\Assets\Scripts\\TimedObjectDestructor.cs" />
+<Compile Include="..\Assets\Scripts\\UIEvents.cs" />
+<Compile Include="..\Assets\Scripts\\ZombieSpawner.cs" />
+<Compile Include="..\Assets\StandardAssets\\Scripts\\WaterSimple.cs" />
+</ItemGroup>
+<Import Project = "$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

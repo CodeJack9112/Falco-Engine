@@ -1,0 +1,42 @@
+
+material StandardAssets/Skybox/Materials/NightSkybox.material
+{
+	program_shared_parameters
+	{
+		tintColor vec3 1.000000 1.000000 1.000000
+	}
+
+	technique Forward
+	{
+		pass main
+		{
+			lighting off
+			depth_write off
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref Shaders/Skybox.glslv
+			{
+			
+			}
+
+			fragment_program_ref Shaders/Skybox.glslf
+			{
+				param_named cubemap int 0
+				param_named tintColor float3 1 1 1
+			}
+
+			texture_unit cubemap
+			{
+				texture_alias diffuseMap
+				cubemap_ref StandardAssets/Skybox/Cubemaps/Night.cubemap
+				max_anisotropy 8
+				filtering anisotropic anisotropic linear
+			}
+		}
+
+	}
+
+}

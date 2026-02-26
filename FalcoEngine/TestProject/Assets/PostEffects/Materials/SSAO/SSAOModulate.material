@@ -1,0 +1,35 @@
+
+material PostEffects/Materials/SSAO/SSAOModulate.material
+{
+	program_shared_parameters
+	{
+	}
+
+	technique Forward
+	{
+		pass 
+		{
+			lighting off
+
+			preprocessor_defines
+			{
+			}
+
+			texture_unit
+			{
+				texture PostEffects/Textures/SSAO/white.bmp
+				max_anisotropy 8
+				filtering anisotropic anisotropic anisotropic
+			}
+
+			texture_unit
+			{
+				texture PostEffects/Textures/SSAO/white.bmp
+				max_anisotropy 8
+				filtering anisotropic anisotropic anisotropic
+			}
+		}
+
+	}
+
+}

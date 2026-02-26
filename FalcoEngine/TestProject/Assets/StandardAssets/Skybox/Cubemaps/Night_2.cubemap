@@ -1,0 +1,10 @@
+cubemap StandardAssets/Skybox/Cubemaps/Night_2.cubemap
+{
+	texture_front StandardAssets/Skybox/Textures/Night_2/mcp_skybox_night_fr.png
+	texture_back StandardAssets/Skybox/Textures/Night_2/mcp_skybox_night_bk.png
+	texture_left StandardAssets/Skybox/Textures/Night_2/mcp_skybox_night_rt.png
+	texture_right StandardAssets/Skybox/Textures/Night_2/mcp_skybox_night_lf.png
+	texture_up StandardAssets/Skybox/Textures/Night_2/mcp_skybox_night_up.png
+	texture_down StandardAssets/Skybox/Textures/Night_2/mcp_skybox_night_dn.png
+	uv_type separateUV
+}

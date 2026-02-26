@@ -1,0 +1,72 @@
+
+material StandardAssets/Materials/WaterSimple.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 0.000000
+		cMetalness float 0.500000
+		cReflectance float 0.250000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+		numWaves int 8
+		waterHeight float 0.000000
+		envMap sampler2D 0
+		eyePos auto camera_position_object_space
+		worldViewProj auto worldviewproj_matrix
+		opacity float 0.650000
+		direction_2 vec2 1.000000 1.000000
+		waterColor vec3 1.000000 1.000000 1.000000
+	}
+
+	technique Forward
+	{
+		pass main
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			cull_software none
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref StandardAssets/Shaders/WaterSimple.glslv
+			{
+				param_named amplitude float8 0 0 0 0 0 0 0 0
+				param_named direction float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named numWaves int 8
+				param_named speed float8 0 0 0 0 0 0 0 0
+				param_named time float 0
+				param_named waterHeight float 0
+				param_named wavelength float8 0 0 0 0 0 0 0 0
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref StandardAssets/Shaders/WaterSimple.glslf
+			{
+				param_named envMap int 0
+				param_named_auto eyePos camera_position_object_space
+				param_named opacity float 0.65
+				param_named waterColor float3 1 1 1
+			}
+
+			texture_unit envMap
+			{
+				texture_alias envMap
+				cubemap_ref StandardAssets/Skybox/Cubemaps/Day.cubemap
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

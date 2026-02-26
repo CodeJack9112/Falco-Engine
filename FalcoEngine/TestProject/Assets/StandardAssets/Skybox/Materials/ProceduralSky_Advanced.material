@@ -1,0 +1,56 @@
+
+material StandardAssets/Skybox/Materials/ProceduralSky_Advanced.material
+{
+	program_shared_parameters
+	{
+		color vec3 1.000000 1.000000 0.000000
+		f1 float 1.000000
+		_AtmosphereThickness float 0.800000
+		_Exposure float 1.100000
+		_WorldSpaceLightPos0 vec4 0.450000 0.300000 0.845000 0.000000
+		_SunSizeConvergence float 15.000000
+		_SunSize float 0.003000
+		_LightColor0 vec3 1.000000 1.000000 1.000000
+		_GroundColor vec3 1.000000 1.000000 1.000000
+		_SkyTint vec3 0.200000 1.200000 1.000000
+		cameraPos auto camera_position_object_space
+		cameraPos1 auto camera_position_object_space
+		model auto world_matrix
+		projection auto projection_matrix
+		view auto view_matrix
+	}
+
+	technique Forward
+	{
+		pass main
+		{
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref StandardAssets/Shaders/ProceduralSky_Advanced.glslv
+			{
+				param_named _AtmosphereThickness float 0
+				param_named _Exposure float 0
+				param_named _GroundColor float3 0 0 0
+				param_named _LightColor0 float3 0 0 0
+				param_named _SkyTint float3 0 0 0
+				param_named _SunSize float 0
+				param_named _SunSizeConvergence float 0
+				param_named _WorldSpaceLightPos0 float4 0 0 0 0
+				param_named model float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named worldViewProj float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			}
+
+			fragment_program_ref StandardAssets/Shaders/ProceduralSky_Advanced.glslf
+			{
+				param_named _SunSize float 0.003
+				param_named _SunSizeConvergence float 15
+				param_named _WorldSpaceLightPos0 float4 0.45 0.3 0.845 0
+			}
+		}
+
+	}
+
+}

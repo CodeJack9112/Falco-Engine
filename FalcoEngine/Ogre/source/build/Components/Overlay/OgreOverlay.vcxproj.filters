@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreBorderPanelOverlayElement.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreFont.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreFontManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreOverlay.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreOverlayContainer.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreOverlayElement.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreOverlayElementCommands.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreOverlayElementFactory.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreOverlayManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreOverlayProfileSessionListener.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreOverlaySystem.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreOverlayTranslator.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgrePanelOverlayElement.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\Components\Overlay\src\OgreTextAreaOverlayElement.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreBorderPanelOverlayElement.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreFont.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreFontManager.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreOverlay.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreOverlayContainer.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreOverlayElement.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreOverlayElementCommands.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreOverlayElementFactory.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreOverlayManager.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreOverlayProfileSessionListener.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreOverlaySystem.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgrePanelOverlayElement.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\Components\Overlay\include\OgreTextAreaOverlayElement.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\build\include\OgreOverlayPrerequisites.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2347C19C-ACEE-3AAE-B5D9-EBE73B80EF9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DB20CD42-8D17-33FC-8559-E9BB43ED0364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Gizmo">
+      <UniqueIdentifier>{a6e33ea5-ee96-41b5-9fa5-5067361c21a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine">
+      <UniqueIdentifier>{11d99c4e-3400-4782-9079-ba5d4dfc630b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Ext">
+      <UniqueIdentifier>{e48c2f0e-1aaf-4111-be79-c66235ed59e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Geometry">
+      <UniqueIdentifier>{e23ba3a4-35b9-4c2d-b075-12278feec408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serialization">
+      <UniqueIdentifier>{af4744d7-0e1f-4a2d-b1dc-ec0eb4f186a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ObjectTypes">
+      <UniqueIdentifier>{2e963a17-0922-4184-b773-df67e110652e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Assets">
+      <UniqueIdentifier>{e5dbf85f-8f84-45b2-af49-0052ee9247b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serialization\Scene">
+      <UniqueIdentifier>{81e6d2c1-6bea-4726-9f1b-f84cc02ca40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serialization\Scene\Classes">
+      <UniqueIdentifier>{5f702243-3a04-407c-b52d-a98189783e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Graphics">
+      <UniqueIdentifier>{730142a6-b681-4ebd-b4d6-6b9688ca3fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Math">
+      <UniqueIdentifier>{7e655ac0-f2a1-4cc8-87b0-c58224016a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components">
+      <UniqueIdentifier>{557a5d17-6a8b-4d6f-b63e-a4d82712411d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components\Audio">
+      <UniqueIdentifier>{8db581ac-53b8-4c98-b765-5310831b9d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components\Physics">
+      <UniqueIdentifier>{3c3e4190-62d0-49fb-b14b-928c8565ee94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serialization\Scene\Classes\Components">
+      <UniqueIdentifier>{bc968c10-64d3-4e92-b3bd-ce4660ef5929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serialization\Scene\Classes\Objects">
+      <UniqueIdentifier>{632d8348-114b-411d-8e89-a36667158d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serialization\Scene\Classes\Structs">
+      <UniqueIdentifier>{a8bb406e-0ee7-407e-86d1-ffb751a5ab3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ObjectTypes\UI">
+      <UniqueIdentifier>{887ed102-9d8b-4538-a8de-0cac1ead2fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serialization\Settings">
+      <UniqueIdentifier>{9de2a2d0-0622-4154-9f36-a0a4be998f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components\Animation">
+      <UniqueIdentifier>{d5eed778-2db9-4e49-a111-f19444ba2522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\DeferredShading">
+      <UniqueIdentifier>{592aae8d-d728-4eb1-b4d0-e01dc1e145cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Geometry\Procedural">
+      <UniqueIdentifier>{2f531af4-c8a3-44ae-8b58-d9fab0bd636f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serialization\Scene\Classes\Scripting">
+      <UniqueIdentifier>{9684ac9e-25c2-4ecf-be1c-6431d85ac5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components\Navigation">
+      <UniqueIdentifier>{1a36dfaf-7646-414f-9d28-a6b8d7bf61b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Navigation">
+      <UniqueIdentifier>{a95b0779-cb83-4477-8428-28cc128e3ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Navigation\Detour">
+      <UniqueIdentifier>{3da642bf-57da-4a34-9d93-29f1501c2561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Navigation\DetourCrowd">
+      <UniqueIdentifier>{becdb01b-f7eb-4a60-a6c3-059ec16a839c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Navigation\DetourTileCache">
+      <UniqueIdentifier>{767eb62b-0356-47f1-8401-7aeae9998077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Navigation\Recast">
+      <UniqueIdentifier>{cf67d01e-08b3-4680-9108-317ebebc2a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Navigation\DebugUtils">
+      <UniqueIdentifier>{030704eb-bb00-46d2-b5ae-08ee834cfb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serialization\Cache">
+      <UniqueIdentifier>{3bce7b08-cb6d-448d-8e50-3dfe6581c5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\PagedGeometry">
+      <UniqueIdentifier>{7accaecb-30c3-434e-b968-aad2d119d185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\PostProcessing">
+      <UniqueIdentifier>{2753f2ad-100d-4407-aaee-a30a6f9225ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono">
+      <UniqueIdentifier>{fccf782a-f4aa-486a-81b9-f012db6472ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono\API">
+      <UniqueIdentifier>{d5f2564b-8e35-4a56-9ef4-4fc02e0676ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono\API\Components">
+      <UniqueIdentifier>{c139eb3b-e982-472a-83ad-646288f47006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono\API\Input">
+      <UniqueIdentifier>{68d80e37-63d1-47d3-8016-9249bb1a53ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono\API\Math">
+      <UniqueIdentifier>{3ec66fbe-dba5-4b9d-97ea-c19b3cddfecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono\API\Core">
+      <UniqueIdentifier>{17c82d72-ac78-45e2-9d7c-ed8f2125eddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono\API\PostProcessing">
+      <UniqueIdentifier>{a90c197d-0e87-4060-bd9a-1b75ad1bd065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono\API\Assets">
+      <UniqueIdentifier>{acc58bbf-84a4-4743-9b55-f9969a7af5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono\API\Objects">
+      <UniqueIdentifier>{5f3f7345-6066-4d77-872c-5573c71358d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Classes">
+      <UniqueIdentifier>{4412563c-dd32-4026-b5e2-bad5afc44a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mono\API\UI">
+      <UniqueIdentifier>{80c8f9c8-fe77-4b23-873e-3f1f54ede473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\UI">
+      <UniqueIdentifier>{aadd836e-5f8f-43b9-bf23-fdf639e82fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\UI\imgui">
+      <UniqueIdentifier>{112e5ddc-9407-49ff-a388-d8c1344f753f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Classes\Sound">
+      <UniqueIdentifier>{b43f492f-2dee-445b-9ba2-ccc900e6cd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Navigation\fastlz">
+      <UniqueIdentifier>{3a77cab1-7ff9-47db-bde6-ff1baeba09d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SScene.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RaycastGeometry.h">
+      <Filter>Исходные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Исходные файлы\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Исходные файлы\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="Empty.h">
+      <Filter>Исходные файлы\ObjectTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CloneTools.h">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetsTools.h">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoRuntime.h">
+      <Filter>Исходные файлы\Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectSettings.h">
+      <Filter>Исходные файлы\Serialization\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicLines.h">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicRenderable.h">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler.h">
+      <Filter>Исходные файлы\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSource.h">
+      <Filter>Исходные файлы\Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioListener.h">
+      <Filter>Исходные файлы\Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SAudioListener.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SAudioSource.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SComponent.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SRigidBody.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SCamera.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SEmpty.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SLight.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SEntity.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SSceneNode.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SColor.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="SQuaternion.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="SVector.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreIncludes.h">
+      <Filter>Исходные файлы\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshCollider.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SMeshCollider.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshUtilities.h">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="StringConverter.h">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UICanvas.h">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SUIElement.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SUICanvas.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SUIButton.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIText.h">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SUIText.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SUIImage.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSettings.h">
+      <Filter>Исходные файлы\Serialization\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="SUIEvent.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXScene.h">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXSceneManager.h">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonBone.h">
+      <Filter>Исходные файлы\Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SSkeletonBone.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\AmbientLight.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\DeferredLightCP.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\DeferredShading.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\DLight.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\GeomUtils.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\LightMaterialGenerator.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\MaterialGenerator.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\ListenerFactoryLogic.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\ShadowCameraSetupStableCSM.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleCollider.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SCapsuleCollider.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\Procedural.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralBoxGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralCapsuleGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralConeGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralCylinderGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralExtruder.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralGeometryHelpers.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralIcoSphereGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralLathe.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralMeshGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralMultiShape.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralPath.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralPathGenerators.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralPlaneGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralPlatform.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralRoot.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralRoundedBoxGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralShape.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralShapeGenerators.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralSphereGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralSplines.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralStableHeaders.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralTorusGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralTorusKnotGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralTrack.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralTriangleBuffer.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralTriangulator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralTubeGenerator.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural\ProceduralUtils.h">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="SMonoFieldInfo.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="SMonoScript.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationList.h">
+      <Filter>Исходные файлы\Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SAnimationList.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEvent.h">
+      <Filter>Исходные файлы\ObjectTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="HingeJoint.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SHingeJoint.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Detour\Include\DetourAlloc.h">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Detour\Include\DetourAssert.h">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Detour\Include\DetourCommon.h">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Detour\Include\DetourMath.h">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Detour\Include\DetourNavMesh.h">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Detour\Include\DetourNavMeshBuilder.h">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Detour\Include\DetourNavMeshQuery.h">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Detour\Include\DetourNode.h">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Detour\Include\DetourStatus.h">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourCrowd.h">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourLocalBoundary.h">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourObstacleAvoidance.h">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourPathCorridor.h">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourPathQueue.h">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DetourCrowd\Include\DetourProximityGrid.h">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DetourTileCache\Include\DetourTileCache.h">
+      <Filter>Исходные файлы\Navigation\DetourTileCache</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DetourTileCache\Include\DetourTileCacheBuilder.h">
+      <Filter>Исходные файлы\Navigation\DetourTileCache</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Recast\Include\Recast.h">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Recast\Include\RecastAlloc.h">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Recast\Include\RecastAssert.h">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\InputGeom.h">
+      <Filter>Исходные файлы\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\ChunkyTriMesh.h">
+      <Filter>Исходные файлы\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\MeshLoaderObj.h">
+      <Filter>Исходные файлы\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationManager.h">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\PerfTimer.h">
+      <Filter>Исходные файлы\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DebugUtils\Include\DebugDraw.h">
+      <Filter>Исходные файлы\Navigation\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DebugUtils\Include\DetourDebugDraw.h">
+      <Filter>Исходные файлы\Navigation\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DebugUtils\Include\RecastDebugDraw.h">
+      <Filter>Исходные файлы\Navigation\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\DebugUtils\Include\RecastDump.h">
+      <Filter>Исходные файлы\Navigation\DebugUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="NavMeshAgent.h">
+      <Filter>Исходные файлы\Components\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="SNavMeshAgent.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SNavMeshSettings.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="mathf.h">
+      <Filter>Исходные файлы\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SBoxCollider.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SSphereCollider.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterJoint.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SCharacterJoint.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imconfig.h">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui.h">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui_internal.h">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_rectpack.h">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_textedit.h">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_truetype.h">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\ImguiManager.h">
+      <Filter>Исходные файлы\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\ImguiRenderable.h">
+      <Filter>Исходные файлы\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Animation.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_AudioSource.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Component.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_NavMeshAgent.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_RigidBody.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_GUI.h">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Input.h">
+      <Filter>Исходные файлы\Mono\API\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Quaternion.h">
+      <Filter>Исходные файлы\Mono\API\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API_GameObject.h">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="API_MonoBehaviour.h">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Physics.h">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Transform.h">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Screen.h">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Cursor.h">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Time.h">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="API_SceneManager.h">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXCache.h">
+      <Filter>Исходные файлы\Serialization\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="NavMeshCache.h">
+      <Filter>Исходные файлы\Serialization\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="SParticleSystem.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="STerrain.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\TerrainMaterialGeneratorD.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\CSMGpuConstants.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\BatchedGeometry.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\BatchPage.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\GrassLoader.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\ImpostorPage.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\MersenneTwister.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\PagedGeometry.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\PropertyMaps.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\RandomTable.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\StaticBillboardSet.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\TreeLoader2D.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\TreeLoader3D.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\WindBatchedGeometry.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\WindBatchPage.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedGeometry\include\PagedGeometryConfig.h">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="SDetailMeshData.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="SGrassData.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionBox.h">
+      <Filter>Исходные файлы\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="TrianglePacker\xatlas.h">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="SLightmapSettings.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Debug.h">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="API_PostEffect.h">
+      <Filter>Исходные файлы\Mono\API\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PostEffectListener.h">
+      <Filter>Исходные файлы\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Material.h">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="API_AttachedObject.h">
+      <Filter>Исходные файлы\Mono\API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Camera.h">
+      <Filter>Исходные файлы\Mono\API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="API.h">
+      <Filter>Исходные файлы\Mono\API</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Исходные файлы\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMap.h">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="STextureData.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Prefab.h">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Application.h">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Entity.h">
+      <Filter>Исходные файлы\Mono\API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="API_SubEntity.h">
+      <Filter>Исходные файлы\Mono\API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainManager.h">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Text.h">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Button.h">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Image.h">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="API_UIElement.h">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSerializer.h">
+      <Filter>Исходные файлы\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Texture.h">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="API_AudioListener.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui_impl_opengl2.h">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui_impl_sdl.h">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\ImGUIWidgets.h">
+      <Filter>Исходные файлы\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuizmo.h">
+      <Filter>Исходные файлы\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="Gizmo2.h">
+      <Filter>Исходные файлы\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIDGenerator.h">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshDeformer.h">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Shader.h">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="API_MeshCollider.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_BoxCollider.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_SphereCollider.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_CapsuleCollider.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Collider.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Asset.h">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPrefs.h">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="API_PlayerPrefs.h">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\MaterialSchemeHandler.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipHelper.h">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading\GpuProgramSources.h">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\dr_wav.h">
+      <Filter>Исходные файлы\Classes\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Random.h">
+      <Filter>Исходные файлы\Mono\API\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="NavMeshObstacle.h">
+      <Filter>Исходные файлы\Components\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="SNavMeshObstacle.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="fastlz\fastlz.h">
+      <Filter>Исходные файлы\Navigation\fastlz</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedJoint.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SFixedJoint.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SVehicle.h">
+      <Filter>Исходные файлы\Serialization\Scene\Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Vehicle.h">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы\Ext</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RaycastGeometry.cpp">
+      <Filter>Исходные файлы\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Empty.cpp">
+      <Filter>Исходные файлы\ObjectTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneTools.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetsTools.cpp">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoRuntime.cpp">
+      <Filter>Исходные файлы\Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectSettings.cpp">
+      <Filter>Исходные файлы\Serialization\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicLines.cpp">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicRenderable.cpp">
+      <Filter>Исходные файлы\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSource.cpp">
+      <Filter>Исходные файлы\Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioListener.cpp">
+      <Filter>Исходные файлы\Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshCollider.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshUtilities.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="UICanvas.cpp">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.cpp">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIText.cpp">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSettings.cpp">
+      <Filter>Исходные файлы\Serialization\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXScene.cpp">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXSceneManager.cpp">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonBone.cpp">
+      <Filter>Исходные файлы\Components\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\AmbientLight.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\DeferredLightCP.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\DeferredShading.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\DLight.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\GeomUtils.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\LightMaterialGenerator.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\MaterialGenerator.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\ShadowCameraSetupStableCSM.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleCollider.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralBoxGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralCapsuleGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralConeGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralCylinderGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralExtruder.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralGeometryHelpers.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralIcoSphereGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralLathe.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralMultiShape.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralPath.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralPathGenerators.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralPlaneGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralPrecompiledHeaders.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralRoot.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralRoundedBoxGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralShape.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralShapeGenerators.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralSphereGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralTorusGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralTorusKnotGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralTrack.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralTriangulator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralTubeGenerator.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedural\ProceduralUtils.cpp">
+      <Filter>Исходные файлы\Geometry\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationList.cpp">
+      <Filter>Исходные файлы\Components\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="HingeJoint.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Detour\Source\DetourAlloc.cpp">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Detour\Source\DetourAssert.cpp">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Detour\Source\DetourCommon.cpp">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Detour\Source\DetourNavMesh.cpp">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Detour\Source\DetourNavMeshBuilder.cpp">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Detour\Source\DetourNavMeshQuery.cpp">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Detour\Source\DetourNode.cpp">
+      <Filter>Исходные файлы\Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourCrowd.cpp">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourLocalBoundary.cpp">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourObstacleAvoidance.cpp">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourPathCorridor.cpp">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourPathQueue.cpp">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DetourCrowd\Source\DetourProximityGrid.cpp">
+      <Filter>Исходные файлы\Navigation\DetourCrowd</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DetourTileCache\Source\DetourTileCache.cpp">
+      <Filter>Исходные файлы\Navigation\DetourTileCache</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DetourTileCache\Source\DetourTileCacheBuilder.cpp">
+      <Filter>Исходные файлы\Navigation\DetourTileCache</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\Recast.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastAlloc.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastArea.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastAssert.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastContour.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastFilter.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastLayers.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastMesh.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastMeshDetail.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastRasterization.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Recast\Source\RecastRegion.cpp">
+      <Filter>Исходные файлы\Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\InputGeom.cpp">
+      <Filter>Исходные файлы\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\ChunkyTriMesh.cpp">
+      <Filter>Исходные файлы\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\MeshLoaderObj.cpp">
+      <Filter>Исходные файлы\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationManager.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\PerfTimer.cpp">
+      <Filter>Исходные файлы\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DebugUtils\Source\DebugDraw.cpp">
+      <Filter>Исходные файлы\Navigation\DebugUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DebugUtils\Source\DetourDebugDraw.cpp">
+      <Filter>Исходные файлы\Navigation\DebugUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DebugUtils\Source\RecastDebugDraw.cpp">
+      <Filter>Исходные файлы\Navigation\DebugUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\DebugUtils\Source\RecastDump.cpp">
+      <Filter>Исходные файлы\Navigation\DebugUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="NavMeshAgent.cpp">
+      <Filter>Исходные файлы\Components\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterJoint.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui.cpp">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_demo.cpp">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_draw.cpp">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_widgets.cpp">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ImguiManager.cpp">
+      <Filter>Исходные файлы\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ImguiRenderable.cpp">
+      <Filter>Исходные файлы\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Animation.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_AudioSource.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Component.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_NavMeshAgent.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_RigidBody.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_GUI.cpp">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Input.cpp">
+      <Filter>Исходные файлы\Mono\API\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Quaternion.cpp">
+      <Filter>Исходные файлы\Mono\API\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="API_GameObject.cpp">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="API_MonoBehaviour.cpp">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Physics.cpp">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Transform.cpp">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Screen.cpp">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Cursor.cpp">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Time.cpp">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="API_SceneManager.cpp">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXCache.cpp">
+      <Filter>Исходные файлы\Serialization\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="NavMeshCache.cpp">
+      <Filter>Исходные файлы\Serialization\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\TerrainMaterialGeneratorD.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\CSMGpuConstants.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\BatchedGeometry.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\BatchPage.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\GrassLoader.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\ImpostorPage.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\PagedGeometry.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\PropertyMaps.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\StaticBillboardSet.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\TreeLoader2D.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\TreeLoader3D.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\WindBatchedGeometry.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedGeometry\source\WindBatchPage.cpp">
+      <Filter>Исходные файлы\PagedGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionBox.cpp">
+      <Filter>Исходные файлы\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="StringConverter.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TrianglePacker\xatlas.cpp">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Debug.cpp">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="API_PostEffect.cpp">
+      <Filter>Исходные файлы\Mono\API\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="PostEffectListener.cpp">
+      <Filter>Исходные файлы\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Material.cpp">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="API_AttachedObject.cpp">
+      <Filter>Исходные файлы\Mono\API\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Camera.cpp">
+      <Filter>Исходные файлы\Mono\API\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="API.cpp">
+      <Filter>Исходные файлы\Mono\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Исходные файлы\Ext</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMap.cpp">
+      <Filter>Исходные файлы\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Prefab.cpp">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Исходные файлы\ObjectTypes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Application.cpp">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Entity.cpp">
+      <Filter>Исходные файлы\Mono\API\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="API_SubEntity.cpp">
+      <Filter>Исходные файлы\Mono\API\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainManager.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Text.cpp">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Image.cpp">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Button.cpp">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="API_UIElement.cpp">
+      <Filter>Исходные файлы\Mono\API\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSerializer.cpp">
+      <Filter>Исходные файлы\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Texture.cpp">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="API_AudioListener.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_impl_opengl2.cpp">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_impl_sdl.cpp">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ImGUIWidgets.cpp">
+      <Filter>Исходные файлы\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Исходные файлы\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuizmo.cpp">
+      <Filter>Исходные файлы\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="Gizmo2.cpp">
+      <Filter>Исходные файлы\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIDGenerator.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshDeformer.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Shader.cpp">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="API_MeshCollider.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_BoxCollider.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_SphereCollider.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_CapsuleCollider.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Collider.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Asset.cpp">
+      <Filter>Исходные файлы\Mono\API\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPrefs.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="API_PlayerPrefs.cpp">
+      <Filter>Исходные файлы\Mono\API\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipHelper.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\GpuProgramSources.cpp">
+      <Filter>Исходные файлы\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Random.cpp">
+      <Filter>Исходные файлы\Mono\API\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="NavMeshObstacle.cpp">
+      <Filter>Исходные файлы\Components\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="fastlz\fastlz.c">
+      <Filter>Исходные файлы\Navigation\fastlz</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedJoint.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Исходные файлы\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Vehicle.cpp">
+      <Filter>Исходные файлы\Mono\API\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

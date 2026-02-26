@@ -1,0 +1,75 @@
+
+material Models/Arkanoid/Materials/points.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 0.000000
+		cMetalness float 0.500000
+		cReflectance float 0.250000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+	}
+
+	technique
+	{
+		pass main
+		{
+
+			preprocessor_defines
+			{
+				define HAS_DIFFUSE
+				define HAS_NORMAL
+				define HAS_METALLIC
+				define HAS_OCCLUSION
+				define HAS_EMISSION
+				define USE_IBL
+			}
+
+			texture_unit diffuseMap
+			{
+				texture_alias diffuseMap
+				max_anisotropy 8
+			}
+
+			texture_unit normalMap
+			{
+				texture_alias normalMap
+				max_anisotropy 8
+			}
+
+			texture_unit metallicMap
+			{
+				texture_alias metallicMap
+				max_anisotropy 8
+			}
+
+			texture_unit occlusionMap
+			{
+				texture_alias occlusionMap
+				max_anisotropy 8
+			}
+
+			texture_unit iblMap
+			{
+				texture_alias iblMap
+				max_anisotropy 8
+			}
+
+			texture_unit emissionMap
+			{
+				texture_alias emissionMap
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

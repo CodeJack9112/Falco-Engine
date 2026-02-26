@@ -1,0 +1,56 @@
+
+material PostEffects/Materials/SunShafts/SunShaftsFirstPass.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 1.000000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+		worldViewProj auto worldviewproj_matrix
+		lightPositionOnScreen auto light_position_view_space
+		iResolution auto viewport_size
+		iResolutionH auto viewport_width
+		iResolutionW auto viewport_height
+		sunSize float 0.055000
+		camViewPos auto camera_position
+	}
+
+	technique
+	{
+		pass main
+		{
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/SunShafts/SunShafts.glslv
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/SunShafts/SunShaftsFirstPass.glslf
+			{
+				param_named_auto iResolution viewport_size
+				param_named_auto lightPositionOnScreen light_position_view_space 0
+				param_named sunSize float 0.055
+			}
+
+			texture_unit rt0
+			{
+				texture_alias diffuseMap
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

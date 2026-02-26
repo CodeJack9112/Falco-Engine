@@ -1,0 +1,56 @@
+
+material PostEffects/Materials/Bloom/BloomEffect.material
+{
+	program_shared_parameters
+	{
+		worldViewProj auto worldviewproj_matrix
+		BlurWeight float 1.000000
+		OriginalImageWeight float 1.000000
+		RT sampler2D 0
+		Blur1 sampler2D 1
+	}
+
+	technique Forward
+	{
+		pass 
+		{
+			depth_check off
+			cull_hardware none
+			cull_software none
+			polygon_mode_overrideable off
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/Bloom/Blur_vs.glslv
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/Bloom/Bloom2_ps20.glslf
+			{
+				param_named Blur1 int 1
+				param_named BlurWeight float 1
+				param_named OriginalImageWeight float 1
+				param_named RT int 0
+			}
+
+			texture_unit
+			{
+				max_anisotropy 8
+				tex_address_mode clamp
+				filtering anisotropic anisotropic anisotropic
+			}
+
+			texture_unit
+			{
+				max_anisotropy 8
+				tex_address_mode clamp
+				filtering anisotropic anisotropic anisotropic
+			}
+		}
+
+	}
+
+}

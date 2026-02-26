@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="../../../build\Components\MeshLodGenerator\OgreMeshLodGenerator_pch.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodBuffer.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodCollapseCost.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodCollapseCostCurvature.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodCollapseCostOutside.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodCollapseCostProfiler.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodCollapseCostQuadric.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodCollapser.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodConfig.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodConfigSerializer.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodData.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodInputProvider.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodInputProviderBuffer.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodInputProviderMesh.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodOutputProviderBuffer.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedBuffer.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodOutputProviderCompressedMesh.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodOutputProviderMesh.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodOutsideMarker.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodWorkQueueInjector.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreLodWorkQueueWorker.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreMeshLodGenerator.cpp" />
+    <ClCompile Include="../../../Components\MeshLodGenerator\src\OgreSmallVector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLod0Stripifier.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodBuffer.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodCollapseCost.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodCollapseCostCurvature.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodCollapseCostOutside.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodCollapseCostProfiler.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodCollapseCostQuadric.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodCollapser.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodConfig.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodConfigSerializer.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodData.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodInputProvider.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodInputProviderBuffer.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodInputProviderMesh.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodOutputProvider.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodOutputProviderBuffer.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodOutputProviderCompressedBuffer.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodOutputProviderCompressedMesh.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodOutputProviderMesh.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodOutsideMarker.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodPrerequisites.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodWorkQueueInjector.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodWorkQueueInjectorListener.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodWorkQueueRequest.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreLodWorkQueueWorker.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreMeshLodGenerator.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreSmallVector.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreVectorSet.h" />
+    <ClInclude Include="../../../Components\MeshLodGenerator\include\OgreVectorSetImpl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2347C19C-ACEE-3AAE-B5D9-EBE73B80EF9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DB20CD42-8D17-33FC-8559-E9BB43ED0364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

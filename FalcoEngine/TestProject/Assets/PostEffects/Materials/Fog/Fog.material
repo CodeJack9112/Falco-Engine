@@ -1,0 +1,82 @@
+
+material PostEffects/Materials/Fog/Fog.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 1.000000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+		worldViewProj auto worldviewproj_matrix
+		zbuffer sampler2D 1
+		c_position auto camera_position_object_space
+		c_view vec3 1.000000 1.000000 1.000000
+		_Density float 0.700000
+		_FogColor vec4 0.580392 0.580392 0.580392 0.000000
+		_LinearGrad float 0.005500
+		_LinearOffs float 0.000000
+		far auto far_clip_distance
+		near float 30.000000
+		viewRay auto view_direction
+		Density float 0.700000
+		LinearGradient float 0.004000
+		Far float 2000.000000
+		Near float 0.000000
+		zBuffer sampler2D 1
+		FogColor vec4 0.439216 0.439216 0.439216 0.000000
+		ColorBuffer sampler2D 0
+		ZBuffer sampler2D 1
+	}
+
+	technique Forward
+	{
+		pass main
+		{
+			depth_check off
+			cull_hardware none
+			cull_software none
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/Fog/ScreenSpaceFog.glslv
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/Fog/ScreenSpaceFog.glslf
+			{
+				param_named ColorBuffer int 0
+				param_named Density float 0.7
+				param_named DistanceOffset float 0
+				param_named Far float 2000
+				param_named FogColor float4 0.439216 0.439216 0.439216 0
+				param_named LinearGradient float 0.004
+				param_named Near float 0
+				param_named ZBuffer int 1
+			}
+
+			texture_unit color
+			{
+				texture_alias diffuseMap
+				max_anisotropy 8
+			}
+
+			texture_unit depthBuffer
+			{
+				texture_alias depthBuffer
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

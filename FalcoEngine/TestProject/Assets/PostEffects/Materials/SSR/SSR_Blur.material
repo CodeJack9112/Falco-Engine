@@ -1,0 +1,87 @@
+
+material PostEffects/Materials/SSR/SSR_Blur.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 1.000000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+		worldViewProj auto worldviewproj_matrix
+		Kernel_radius float 3.000000
+		Kernel_scale float 3.000000
+		bgl_DepthTexture sampler2D 1
+		bgl_RenderedTextureHeight auto viewport_height
+		bgl_RenderedTextureWidth auto viewport_width
+		bgl_ColorTexture sampler2D 2
+		ColorTexture sampler2D 2
+		DepthTexture sampler2D 1
+		RenderedTexture sampler2D 0
+		ReflectanceTextureHeight auto viewport_height
+		ReflectanceTextureWidth auto viewport_width
+		NormalTexture sampler2D 3
+	}
+
+	technique Forward
+	{
+		pass main
+		{
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/SSR/ssr.glslv
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/SSR/ssr_resolve.glslf
+			{
+				param_named ColorTexture int 2
+				param_named DepthTexture int 1
+				param_named Kernel_radius float 3
+				param_named Kernel_scale float 3
+				param_named ReflectanceTexture int 0
+				param_named_auto ReflectanceTextureHeight viewport_height
+				param_named_auto ReflectanceTextureWidth viewport_width
+			}
+
+			texture_unit reflectionMap
+			{
+				texture_alias diffuseMap
+				max_anisotropy 8
+				filtering none none none
+			}
+
+			texture_unit depthMap
+			{
+				texture_alias newTextureUnit
+				max_anisotropy 8
+				filtering none none none
+			}
+
+			texture_unit colorMap
+			{
+				texture_alias newTextureUnit
+				max_anisotropy 8
+			}
+
+			texture_unit normalMap
+			{
+				texture_alias normalMap
+				max_anisotropy 8
+				filtering none none none
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,37 @@
+
+material Weapons/materials/bulletImpact_sparks.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor auto surface_diffuse_colour
+		cSpecularity float 1.000000
+		diffuseColor auto surface_diffuse_colour
+		cWorldViewProj auto worldviewproj_matrix
+		diffuseMap sampler2D 0
+	}
+
+	technique Forward
+	{
+		pass perlight
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+			preprocessor_defines
+			{
+			}
+
+			texture_unit diffuseMap
+			{
+				texture_alias diffuseMap
+				texture Weapons/textures/txImpactMetalSpray.png
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,56 @@
+
+material Models/Arkanoid/Materials/Block_1.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 0.000000 0.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 0.000000
+		cMetalness float 0.500000
+		cReflectance float 0.250000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+		cWorldViewProj auto worldviewproj_matrix
+		diffuseColor vec4 1.000000 0.000000 0.000000 0.000000
+	}
+
+	technique Deferred
+	{
+		scheme Deferred
+		pass main
+		{
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref Shaders/DeferredPBR.glslv
+			{
+				param_named world float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named worldView float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named worldViewProj float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			}
+
+			fragment_program_ref Shaders/DeferredPBR.glslf
+			{
+				param_named cDiffuseColor float3 0 0 0
+				param_named cEmissionFactor float 0
+				param_named cMetalness float 0
+				param_named cReflectance float 0
+				param_named cSpecularity float 0
+				param_named cUVScale float2 0 0
+				param_named farClipDistance float 0
+				param_named lightMap int 0
+				param_named useLightMap int 0
+			}
+		}
+
+	}
+
+}

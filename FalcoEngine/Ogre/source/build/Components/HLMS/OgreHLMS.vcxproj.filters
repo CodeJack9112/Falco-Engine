@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsDatablock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsMaterialBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsPbsMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsPropertyHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsPropertyMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsShaderGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsShaderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsShaderPiecesManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\src\OgreHlmsShaderTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsDatablock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsMaterialBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsPbsMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsPropertyHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsPropertyMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsShaderCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsShaderGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsShaderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsShaderPiecesManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreHlmsShaderTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\HLMS\include\OgreIdString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\include\OgreHlmsPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2347C19C-ACEE-3AAE-B5D9-EBE73B80EF9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DB20CD42-8D17-33FC-8559-E9BB43ED0364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

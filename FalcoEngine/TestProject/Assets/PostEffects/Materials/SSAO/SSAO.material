@@ -1,0 +1,64 @@
+
+material PostEffects/Materials/SSAO/SSAO.material
+{
+	program_shared_parameters
+	{
+		worldViewProj auto worldviewproj_matrix
+		ptMat float 0.000000
+		radius float 0.512500
+		randMap sampler2D 2
+		far auto far_clip_distance
+		samplesCount int 6
+	}
+
+	technique
+	{
+		pass 
+		{
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/SSAO/ssao_vs.glslv
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/SSAO/ssao_ps.glslf
+			{
+				param_named_auto far far_clip_distance
+				param_named geomMap int 0
+				param_named posMap int 1
+				param_named ptMat float16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+				param_named radius float 0.5125
+				param_named randMap int 2
+				param_named samplesCount int 6
+			}
+
+			texture_unit geomMap
+			{
+				texture_alias geomMap
+				max_anisotropy 0
+				filtering none none none
+			}
+
+			texture_unit viewPosMap
+			{
+				texture_alias viewPosMap
+				max_anisotropy 0
+				filtering none none none
+			}
+
+			texture_unit randMap
+			{
+				texture_alias randMap
+				texture PostEffects/Textures/SSAO/random.png
+				max_anisotropy 0
+				filtering none none none
+			}
+		}
+
+	}
+
+}

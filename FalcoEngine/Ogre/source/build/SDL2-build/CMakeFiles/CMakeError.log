@@ -1,0 +1,90 @@
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_06921.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:26.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_06921.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_06921.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_06921.dir\Debug\cmTC_06921.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_06921.dir\Debug\cmTC_06921.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06921.dir\Debug\\" /Fd"cmTC_06921.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06921.dir\Debug\\" /Fd"cmTC_06921.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+d:\dev\c++\falcoengine\ogre\source\build\sdl2-build\cmakefiles\cmaketmp\src.c(4): error C2061: синтаксическая ошибка: идентификатор "x1" [D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_06921.vcxproj]
+d:\dev\c++\falcoengine\ogre\source\build\sdl2-build\cmakefiles\cmaketmp\src.c(4): error C2059: синтаксическая ошибка: ; [D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_06921.vcxproj]
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_06921.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+
+Ошибка сборки.
+
+"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_06921.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  d:\dev\c++\falcoengine\ogre\source\build\sdl2-build\cmakefiles\cmaketmp\src.c(4): error C2061: синтаксическая ошибка: идентификатор "x1" [D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_06921.vcxproj]
+  d:\dev\c++\falcoengine\ogre\source\build\sdl2-build\cmakefiles\cmaketmp\src.c(4): error C2059: синтаксическая ошибка: ; [D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_06921.vcxproj]
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.67
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_GAMEPAD_EX x1;
+        int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_28218.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:27.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_28218.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_28218.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_28218.dir\Debug\cmTC_28218.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_28218.dir\Debug\cmTC_28218.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28218.dir\Debug\\" /Fd"cmTC_28218.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28218.dir\Debug\\" /Fd"cmTC_28218.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+d:\dev\c++\falcoengine\ogre\source\build\sdl2-build\cmakefiles\cmaketmp\src.c(4): error C2061: синтаксическая ошибка: идентификатор "s1" [D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_28218.vcxproj]
+d:\dev\c++\falcoengine\ogre\source\build\sdl2-build\cmakefiles\cmaketmp\src.c(4): error C2059: синтаксическая ошибка: ; [D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_28218.vcxproj]
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_28218.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+
+Ошибка сборки.
+
+"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_28218.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  d:\dev\c++\falcoengine\ogre\source\build\sdl2-build\cmakefiles\cmaketmp\src.c(4): error C2061: синтаксическая ошибка: идентификатор "s1" [D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_28218.vcxproj]
+  d:\dev\c++\falcoengine\ogre\source\build\sdl2-build\cmakefiles\cmaketmp\src.c(4): error C2059: синтаксическая ошибка: ; [D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_28218.vcxproj]
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.82
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_STATE_EX s1;
+        int main(int argc, char **argv) { }

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2FC6204A-74B3-3893-949D-B691E0714711}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>OgreBites</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Dev\C++\FalcoEngine\Ogre\source\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OgreBites.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OgreBites_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Dev\C++\FalcoEngine\Ogre\source\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OgreBites.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OgreBites</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Dev\C++\FalcoEngine\Ogre\source\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OgreBites.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OgreBites</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">../../../../../lib/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OgreBites.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OgreBites</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <IncludePath>../../../../../Mono/include/;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MT;_USRDLL;CMAKE_INTDIR="Debug";OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_MT;_USRDLL;CMAKE_INTDIR=\"Debug\";OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\OgreOverlay_d.lib;..\..\lib\Debug\OgreRTShaderSystem_d.lib;winmm.lib;imm32.lib;version.lib;msimg32.lib;..\..\Dependencies\lib\SDL2main.lib;..\..\Dependencies\lib\SDL2.lib;..\..\lib\Debug\OgreMain_d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/C++/FalcoEngine/Ogre/source/build/lib/Debug/OgreBites_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dev/C++/FalcoEngine/Ogre/source/build/bin/Debug/OgreBites_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR="Release";OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR=\"Release\";OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\OgreOverlay.lib;..\..\lib\Release\OgreRTShaderSystem.lib;winmm.lib;imm32.lib;version.lib;msimg32.lib;..\..\Dependencies\lib\SDL2main.lib;..\..\Dependencies\lib\SDL2.lib;..\..\lib\Release\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/C++/FalcoEngine/Ogre/source/build/lib/Release/OgreBites.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dev/C++/FalcoEngine/Ogre/source/build/bin/Release/OgreBites.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR="MinSizeRel";OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR=\"MinSizeRel\";OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\OgreOverlay.lib;..\..\lib\MinSizeRel\OgreRTShaderSystem.lib;winmm.lib;imm32.lib;version.lib;msimg32.lib;..\..\Dependencies\lib\SDL2main.lib;..\..\Dependencies\lib\SDL2.lib;..\..\lib\MinSizeRel\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/C++/FalcoEngine/Ogre/source/build/lib/MinSizeRel/OgreBites.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dev/C++/FalcoEngine/Ogre/source/build/bin/MinSizeRel/OgreBites.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zm256 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR="RelWithDebInfo";OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_MT;_USRDLL;CMAKE_INTDIR=\"RelWithDebInfo\";OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\Dependencies\include\SDL2;D:\Dev\C++\FalcoEngine\Ogre\source\OgreMain\include;D:\Dev\C++\FalcoEngine\Ogre\source\build\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\Overlay\include;D:\Dev\C++\FalcoEngine\Ogre\source\Components\RTShaderSystem\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\OgreOverlay.lib;..\..\lib\RelWithDebInfo\OgreRTShaderSystem.lib;winmm.lib;imm32.lib;version.lib;msimg32.lib;..\..\Dependencies\lib\SDL2main.lib;..\..\Dependencies\lib\SDL2.lib;..\..\lib\RelWithDebInfo\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Dev/C++/FalcoEngine/Ogre/source/build/lib/RelWithDebInfo/OgreBites.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Dev/C++/FalcoEngine/Ogre/source/build/bin/RelWithDebInfo/OgreBites.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include\OgreAdvancedRenderControls.h" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include\OgreApplicationContext.h" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include\OgreBitesConfigDialog.h" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include\OgreCameraMan.h" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include\OgreInput.h" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include\OgreSGTechniqueResolverListener.h" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include\OgreStaticPluginLoader.h" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include\OgreTrays.h" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\include\OgreWindowEventUtilities.h" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\include\OgreBitesPrerequisites.h" />
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\OgreAdvancedRenderControls.cpp" />
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\OgreApplicationContext.cpp" />
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\OgreBitesConfigDialog.cpp" />
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\OgreCameraMan.cpp" />
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\OgreSGTechniqueResolverListener.cpp" />
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\OgreStaticPluginLoader.cpp" />
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\OgreTrays.cpp" />
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\OgreWindowEventUtilities.cpp" />
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\OgreWIN32ConfigDialog.cpp" />
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\src\resource.h" />
+    <ResourceCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\Components\Bites\misc\OgreWin32Resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\OgreMain\OgreMain.vcxproj">
+      <Project>{41253F8C-DD10-3D7F-85DD-818BB718CCC3}</Project>
+      <Name>OgreMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\Overlay\OgreOverlay.vcxproj">
+      <Project>{4205BDB2-DAFF-3A27-ACBA-E20B03B74C97}</Project>
+      <Name>OgreOverlay</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj">
+      <Project>{BD449A17-301D-3C46-9B9D-0C98A52DB5E1}</Project>
+      <Name>OgreRTShaderSystem</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

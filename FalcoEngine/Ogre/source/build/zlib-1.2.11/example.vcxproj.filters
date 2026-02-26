@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\zlib-1.2.11\test\example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\zlib-1.2.11\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A2E14340-B064-3820-931B-76EAD27D6989}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

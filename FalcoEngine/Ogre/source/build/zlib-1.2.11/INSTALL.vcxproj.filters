@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\zlib-1.2.11\CMakeFiles\7a39296f96c6ca132bfb8fed144ffd56\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7F36FDE6-98ED-3395-8970-EAF9B54D8F77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

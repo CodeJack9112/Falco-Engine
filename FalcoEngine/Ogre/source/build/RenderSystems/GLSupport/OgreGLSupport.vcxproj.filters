@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\win32\OgreWin32Context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\win32\OgreWin32GLSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\win32\OgreWin32RenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\win32\OgreWin32Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\GLSL\OgreGLSLPreprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\GLSL\OgreGLSLProgramCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\GLSL\OgreGLSLProgramManagerCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\GLSL\OgreGLSLShaderCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\OgreGLRenderSystemCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\OgreGLTextureCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\OgreGLRenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\OgreGLHardwarePixelBufferCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\OgreGLUniformCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\src\OgreGLVertexArrayObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLHardwarePixelBufferCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLNativeSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLPBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLRenderSystemCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLRenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLStateCacheManagerCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLTextureCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLUniformCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\OgreGLVertexArrayObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\win32\OgreWin32Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\win32\OgreWin32GLSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\win32\OgreWin32Prerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\win32\OgreWin32RenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\C++\FalcoEngine\Ogre\source\RenderSystems\GLSupport\include\win32\OgreWin32Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2347C19C-ACEE-3AAE-B5D9-EBE73B80EF9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DB20CD42-8D17-33FC-8559-E9BB43ED0364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

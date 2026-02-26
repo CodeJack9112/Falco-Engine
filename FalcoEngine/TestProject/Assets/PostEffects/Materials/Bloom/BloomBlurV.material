@@ -1,0 +1,42 @@
+
+material PostEffects/Materials/Bloom/BloomBlurV.material
+{
+	program_shared_parameters
+	{
+		worldViewProj auto worldviewproj_matrix
+	}
+
+	technique Forward
+	{
+		pass 
+		{
+			depth_check off
+			cull_hardware none
+			cull_software none
+			polygon_mode_overrideable off
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/Bloom/Blur_vs.glslv
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/Bloom/BlurV_ps20.glslf
+			{
+				param_named Blur0 int 0
+			}
+
+			texture_unit
+			{
+				max_anisotropy 8
+				tex_address_mode clamp
+				filtering anisotropic anisotropic anisotropic
+			}
+		}
+
+	}
+
+}

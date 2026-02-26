@@ -1,0 +1,33 @@
+
+material StandardAssets/Particles/Materials/Snow.material
+{
+	program_shared_parameters
+	{
+	}
+
+	receive_shadows off
+	technique Forward
+	{
+		pass perlight
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+			preprocessor_defines
+			{
+			}
+
+			texture_unit diffuseMap
+			{
+				texture_alias diffuseMap
+				texture StandardAssets/Particles/Textures/Snow.psd
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

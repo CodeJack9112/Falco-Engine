@@ -1,0 +1,58 @@
+
+material PostEffects/Materials/SunShafts/SunShaftsCombine.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 1.000000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+		cUVScale vec2 1.000000 1.000000
+		worldViewProj auto worldviewproj_matrix
+		tex0 sampler2D 0
+		tex1 sampler2D 1
+	}
+
+	technique
+	{
+		pass main
+		{
+
+			preprocessor_defines
+			{
+			}
+
+			vertex_program_ref PostEffects/Shaders/SunShafts/SunShafts.glslv
+			{
+				param_named_auto worldViewProj worldviewproj_matrix
+			}
+
+			fragment_program_ref PostEffects/Shaders/SunShafts/SunShaftsCombine.glslf
+			{
+				param_named tex0 int 0
+				param_named tex1 int 1
+			}
+
+			texture_unit rt0
+			{
+				texture_alias diffuseMap
+				max_anisotropy 8
+			}
+
+			texture_unit rt1
+			{
+				texture_alias normalMap
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}

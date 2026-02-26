@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E13806A0-85B9-301D-B546-2B536B80703A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\PlugIns\STBICodec\Codec_STBI.vcxproj">
+      <Project>{A6C207D4-CFFC-3487-8B8F-C209317C76D5}</Project>
+      <Name>Codec_STBI</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\Bites\OgreBites.vcxproj">
+      <Project>{2FC6204A-74B3-3893-949D-B691E0714711}</Project>
+      <Name>OgreBites</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\RenderSystems\GLSupport\OgreGLSupport.vcxproj">
+      <Project>{70932B27-AC39-38AF-B811-B6F0FD528793}</Project>
+      <Name>OgreGLSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\HLMS\OgreHLMS.vcxproj">
+      <Project>{8AA3978D-65F8-3BE4-AA99-D40E58E3EC2C}</Project>
+      <Name>OgreHLMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\OgreMain\OgreMain.vcxproj">
+      <Project>{41253F8C-DD10-3D7F-85DD-818BB718CCC3}</Project>
+      <Name>OgreMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj">
+      <Project>{2DF14E35-AFD9-30D6-BDF8-3D1E59CE9C71}</Project>
+      <Name>OgreMeshLodGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Tools\MeshUpgrader\OgreMeshUpgrader.vcxproj">
+      <Project>{F7632664-63C3-3813-8789-21BD5174B554}</Project>
+      <Name>OgreMeshUpgrader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\Overlay\OgreOverlay.vcxproj">
+      <Project>{4205BDB2-DAFF-3A27-ACBA-E20B03B74C97}</Project>
+      <Name>OgreOverlay</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\Paging\OgrePaging.vcxproj">
+      <Project>{F3B46C91-5BF8-300B-B5FD-7B8C9ECB30D8}</Project>
+      <Name>OgrePaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\Property\OgreProperty.vcxproj">
+      <Project>{AA86D9CE-9F99-3601-A9CB-93DB6B597FC1}</Project>
+      <Name>OgreProperty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj">
+      <Project>{BD449A17-301D-3C46-9B9D-0C98A52DB5E1}</Project>
+      <Name>OgreRTShaderSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\Terrain\OgreTerrain.vcxproj">
+      <Project>{EF2A7041-CDB9-3D18-88FD-7847F814F66B}</Project>
+      <Name>OgreTerrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Components\Volume\OgreVolume.vcxproj">
+      <Project>{1AF7B1DD-6E1F-3EC8-97B2-C8877A6FDD5D}</Project>
+      <Name>OgreVolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Tools\XMLConverter\OgreXMLConverter.vcxproj">
+      <Project>{3C20FA83-059A-3E30-8F98-29D9D7535DDD}</Project>
+      <Name>OgreXMLConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\PlugIns\BSPSceneManager\Plugin_BSPSceneManager.vcxproj">
+      <Project>{6F7AC7A8-2533-3691-AD15-8E2323BA62EA}</Project>
+      <Name>Plugin_BSPSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\PlugIns\OctreeSceneManager\Plugin_OctreeSceneManager.vcxproj">
+      <Project>{76133B49-05BD-3C3C-BFF0-8A2113FE0C35}</Project>
+      <Name>Plugin_OctreeSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\PlugIns\OctreeZone\Plugin_OctreeZone.vcxproj">
+      <Project>{FE18D18E-CF14-3921-880F-8658D9E90DA8}</Project>
+      <Name>Plugin_OctreeZone</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj">
+      <Project>{42BD5D95-4776-3A56-A4FF-3BFD7E7617FE}</Project>
+      <Name>Plugin_PCZSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\PlugIns\ParticleFX\Plugin_ParticleFX.vcxproj">
+      <Project>{396CF70D-5C03-3B83-B780-D1E81D068FD7}</Project>
+      <Name>Plugin_ParticleFX</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\RenderSystems\GL\RenderSystem_GL.vcxproj">
+      <Project>{6D99B464-19DF-3D67-8FB2-A8F1FF58B9A8}</Project>
+      <Name>RenderSystem_GL</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Dev\C++\FalcoEngine\Ogre\source\build\Tools\VRMLConverter\VRMLConverter.vcxproj">
+      <Project>{DA5C2D8C-A10A-3637-A6BD-0AAA135DE058}</Project>
+      <Name>VRMLConverter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

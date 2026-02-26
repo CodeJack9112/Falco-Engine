@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\src\OgreGLSLExtSupport.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\src\OgreGLSLGpuProgram.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\src\OgreGLSLLinkProgram.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\src\OgreGLSLLinkProgramManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\src\OgreGLSLProgram.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\src\OgreGLSLProgramFactory.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLCopyingRenderTexture.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLDepthBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLEngineDll.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLFBOMultiRenderTarget.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLFBORenderTexture.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLFrameBufferObject.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLGpuNvparseProgram.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLGpuProgram.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLGpuProgramManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLHardwareBufferManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLHardwareIndexBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLHardwareOcclusionQuery.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLHardwarePixelBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLHardwareVertexBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLPBRenderTexture.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLPixelFormat.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLPlugin.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLRenderSystem.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLRenderToVertexBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLStateCacheManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLTexture.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\OgreGLTextureManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_ps1.0_lexer.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_ps1.0_parser.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_rc1.0_lexer.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_rc1.0_parser.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_ts1.0_lexer.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_ts1.0_parser.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_vs1.0_lexer.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_vs1.0_parser.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\atifs\src\ATI_FS_GLGpuProgram.cpp">
+      <Filter>ATIFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\nvparse_errors.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\nvparse.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\avp1.0_impl.cpp">
+      <Filter>GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\atifs\src\Compiler2Pass.cpp">
+      <Filter>GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\glew.c">
+      <Filter>GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\atifs\src\ps_1_4.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\ps1.0_program.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\rc1.0_combiners.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\rc1.0_final.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\rc1.0_general.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\ts1.0_inst.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\ts1.0_inst_list.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\vcp1.0_impl.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\vp1.0_impl.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\vs1.0_inst.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\vs1.0_inst_list.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\vsp1.0_impl.cpp">
+      <Filter>NVparse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLCopyingRenderTexture.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLDepthBuffer.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLFBOMultiRenderTarget.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLFBORenderTexture.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLFrameBufferObject.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLGpuNvparseProgram.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLGpuProgram.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLGpuProgramManager.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLHardwareBufferManager.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLHardwareIndexBuffer.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLHardwareOcclusionQuery.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLHardwarePixelBuffer.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLHardwareVertexBuffer.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLPBRenderTexture.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLPixelFormat.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLPlugin.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLPrerequisites.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLRenderSystem.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLRenderToVertexBuffer.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLStateCacheManager.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLTexture.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\include\OgreGLTextureManager.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\include\OgreGLSLExtSupport.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\include\OgreGLSLGpuProgram.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\include\OgreGLSLLinkProgram.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\include\OgreGLSLLinkProgramManager.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\include\OgreGLSLProgram.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\GLSL\include\OgreGLSLProgramFactory.h" />
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_ps1.0_parser.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_rc1.0_parser.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_ts1.0_parser.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\_vs1.0_parser.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\nvparse.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\nvparse_errors.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\nvparse_externs.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\macro.h">
+      <Filter>GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\ps1.0_program.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\rc1.0_combiners.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\rc1.0_final.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\rc1.0_general.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\rc1.0_register.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\ts1.0_inst.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\ts1.0_inst_list.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\vs1.0_inst.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Ogre\source\RenderSystems\GL\src\nvparse\vs1.0_inst_list.h">
+      <Filter>NVparse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2347C19C-ACEE-3AAE-B5D9-EBE73B80EF9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DB20CD42-8D17-33FC-8559-E9BB43ED0364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NVparse">
+      <UniqueIdentifier>{8774DD45-F12A-32C0-B4B7-4DF65FAD6714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ATIFS">
+      <UniqueIdentifier>{E07E5FBB-2A7E-3C32-B678-158C62C2C84A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLSL">
+      <UniqueIdentifier>{E37B22F6-E203-37B7-9EA6-96424BFBD6F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

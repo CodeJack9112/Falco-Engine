@@ -1,0 +1,510 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine ���ᨨ 15.7.180.61344 ��� .NET Framework
+(C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
+
+���ઠ ���� 13.09.2018 19:35:21.
+�஥�� "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\3.10.0-rc3\CompilerIdC\CompilerIdC.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+PrepareForBuild:
+  �������� ��⠫��� "Debug\".
+  �������� ��⠫��� "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  �������� "Debug\CompilerIdC.tlog\unsuccessfulbuild", ⠪ ��� �뫮 ������ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\3.10.0-rc3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  ���� "Debug\CompilerIdC.tlog\unsuccessfulbuild" 㤠�����.
+  ���饭�� � "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+���ઠ �஥�� "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\3.10.0-rc3\CompilerIdC\CompilerIdC.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+
+���ઠ �ᯥ譮 �����襭�.
+    �।�०�����: 0
+    �訡��: 0
+
+��諮 �६��� 00:00:00.90
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/3.10.0-rc3/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_722af.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:22.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_722af.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_722af.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_722af.dir\Debug\cmTC_722af.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_722af.dir\Debug\cmTC_722af.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_722af.dir\Debug\\" /Fd"cmTC_722af.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_722af.dir\Debug\\" /Fd"cmTC_722af.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_722af.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_722af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_722af.lib" /MACHINE:X64  /machine:x64 cmTC_722af.dir\Debug\testCCompiler.obj
+  cmTC_722af.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_722af.exe
+FinalizeBuildStatus:
+  Файл "cmTC_722af.dir\Debug\cmTC_722af.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_722af.dir\Debug\cmTC_722af.tlog\cmTC_722af.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_722af.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.96
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2b501.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:23.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_2b501.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_2b501.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_2b501.dir\Debug\cmTC_2b501.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_2b501.dir\Debug\cmTC_2b501.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b501.dir\Debug\\" /Fd"cmTC_2b501.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b501.dir\Debug\\" /Fd"cmTC_2b501.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Programs\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_2b501.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_2b501.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_2b501.lib" /MACHINE:X64  /machine:x64 cmTC_2b501.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_2b501.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_2b501.exe
+FinalizeBuildStatus:
+  Файл "cmTC_2b501.dir\Debug\cmTC_2b501.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_2b501.dir\Debug\cmTC_2b501.tlog\cmTC_2b501.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_2b501.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.78
+
+
+Performing C SOURCE FILE Test HAVE_WIN32_CC succeeded with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_bb281.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:24.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_bb281.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_bb281.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_bb281.dir\Debug\cmTC_bb281.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_bb281.dir\Debug\cmTC_bb281.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb281.dir\Debug\\" /Fd"cmTC_bb281.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb281.dir\Debug\\" /Fd"cmTC_bb281.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_bb281.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_bb281.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_bb281.lib" /MACHINE:X64  /machine:x64 cmTC_bb281.dir\Debug\src.obj
+  cmTC_bb281.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_bb281.exe
+FinalizeBuildStatus:
+  Файл "cmTC_bb281.dir\Debug\cmTC_bb281.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_bb281.dir\Debug\cmTC_bb281.tlog\cmTC_bb281.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_bb281.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.02
+
+Source file was:
+
+    #include <windows.h>
+    int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_H succeeded with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_c9c43.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:25.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_c9c43.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_c9c43.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_c9c43.dir\Debug\cmTC_c9c43.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_c9c43.dir\Debug\cmTC_c9c43.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9c43.dir\Debug\\" /Fd"cmTC_c9c43.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9c43.dir\Debug\\" /Fd"cmTC_c9c43.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_c9c43.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_c9c43.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_c9c43.lib" /MACHINE:X64  /machine:x64 cmTC_c9c43.dir\Debug\src.obj
+  cmTC_c9c43.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_c9c43.exe
+FinalizeBuildStatus:
+  Файл "cmTC_c9c43.dir\Debug\cmTC_c9c43.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_c9c43.dir\Debug\cmTC_c9c43.tlog\cmTC_c9c43.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_c9c43.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.03
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        int main(int argc, char **argv) { }
+Determining if the include file d3d9.h exists passed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6ed7a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:28.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_6ed7a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_6ed7a.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_6ed7a.dir\Debug\cmTC_6ed7a.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_6ed7a.dir\Debug\cmTC_6ed7a.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ed7a.dir\Debug\\" /Fd"cmTC_6ed7a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ed7a.dir\Debug\\" /Fd"cmTC_6ed7a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_6ed7a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_6ed7a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_6ed7a.lib" /MACHINE:X64  /machine:x64 cmTC_6ed7a.dir\Debug\CheckIncludeFile.obj
+  cmTC_6ed7a.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_6ed7a.exe
+FinalizeBuildStatus:
+  Файл "cmTC_6ed7a.dir\Debug\cmTC_6ed7a.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_6ed7a.dir\Debug\cmTC_6ed7a.tlog\cmTC_6ed7a.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_6ed7a.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.02
+
+
+Determining if the include file d3d11_1.h exists passed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e6b3c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:30.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_e6b3c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_e6b3c.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_e6b3c.dir\Debug\cmTC_e6b3c.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_e6b3c.dir\Debug\cmTC_e6b3c.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6b3c.dir\Debug\\" /Fd"cmTC_e6b3c.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6b3c.dir\Debug\\" /Fd"cmTC_e6b3c.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_e6b3c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_e6b3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_e6b3c.lib" /MACHINE:X64  /machine:x64 cmTC_e6b3c.dir\Debug\CheckIncludeFile.obj
+  cmTC_e6b3c.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_e6b3c.exe
+FinalizeBuildStatus:
+  Файл "cmTC_e6b3c.dir\Debug\cmTC_e6b3c.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_e6b3c.dir\Debug\cmTC_e6b3c.tlog\cmTC_e6b3c.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_e6b3c.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.11
+
+
+Determining if the include file ddraw.h exists passed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ad245.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:31.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_ad245.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_ad245.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_ad245.dir\Debug\cmTC_ad245.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_ad245.dir\Debug\cmTC_ad245.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad245.dir\Debug\\" /Fd"cmTC_ad245.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad245.dir\Debug\\" /Fd"cmTC_ad245.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_ad245.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_ad245.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_ad245.lib" /MACHINE:X64  /machine:x64 cmTC_ad245.dir\Debug\CheckIncludeFile.obj
+  cmTC_ad245.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_ad245.exe
+FinalizeBuildStatus:
+  Файл "cmTC_ad245.dir\Debug\cmTC_ad245.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_ad245.dir\Debug\cmTC_ad245.tlog\cmTC_ad245.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_ad245.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.04
+
+
+Determining if the include file dsound.h exists passed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_18891.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:32.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_18891.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_18891.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_18891.dir\Debug\cmTC_18891.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_18891.dir\Debug\cmTC_18891.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18891.dir\Debug\\" /Fd"cmTC_18891.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18891.dir\Debug\\" /Fd"cmTC_18891.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_18891.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_18891.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_18891.lib" /MACHINE:X64  /machine:x64 cmTC_18891.dir\Debug\CheckIncludeFile.obj
+  cmTC_18891.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_18891.exe
+FinalizeBuildStatus:
+  Файл "cmTC_18891.dir\Debug\cmTC_18891.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_18891.dir\Debug\cmTC_18891.tlog\cmTC_18891.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_18891.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.03
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_4cbe5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:33.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_4cbe5.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_4cbe5.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_4cbe5.dir\Debug\cmTC_4cbe5.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_4cbe5.dir\Debug\cmTC_4cbe5.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4cbe5.dir\Debug\\" /Fd"cmTC_4cbe5.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4cbe5.dir\Debug\\" /Fd"cmTC_4cbe5.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_4cbe5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_4cbe5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_4cbe5.lib" /MACHINE:X64  /machine:x64 cmTC_4cbe5.dir\Debug\CheckIncludeFile.obj
+  cmTC_4cbe5.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_4cbe5.exe
+FinalizeBuildStatus:
+  Файл "cmTC_4cbe5.dir\Debug\cmTC_4cbe5.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_4cbe5.dir\Debug\cmTC_4cbe5.tlog\cmTC_4cbe5.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_4cbe5.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.03
+
+
+Determining if the include file mmdeviceapi.h exists passed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e5dd7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:35.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_e5dd7.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_e5dd7.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_e5dd7.dir\Debug\cmTC_e5dd7.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_e5dd7.dir\Debug\cmTC_e5dd7.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5dd7.dir\Debug\\" /Fd"cmTC_e5dd7.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5dd7.dir\Debug\\" /Fd"cmTC_e5dd7.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_e5dd7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_e5dd7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_e5dd7.lib" /MACHINE:X64  /machine:x64 cmTC_e5dd7.dir\Debug\CheckIncludeFile.obj
+  cmTC_e5dd7.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_e5dd7.exe
+FinalizeBuildStatus:
+  Файл "cmTC_e5dd7.dir\Debug\cmTC_e5dd7.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_e5dd7.dir\Debug\cmTC_e5dd7.tlog\cmTC_e5dd7.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_e5dd7.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.03
+
+
+Determining if the include file audioclient.h exists passed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_c27dc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:36.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_c27dc.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_c27dc.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_c27dc.dir\Debug\cmTC_c27dc.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_c27dc.dir\Debug\cmTC_c27dc.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c27dc.dir\Debug\\" /Fd"cmTC_c27dc.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c27dc.dir\Debug\\" /Fd"cmTC_c27dc.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_c27dc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_c27dc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_c27dc.lib" /MACHINE:X64  /machine:x64 cmTC_c27dc.dir\Debug\CheckIncludeFile.obj
+  cmTC_c27dc.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_c27dc.exe
+FinalizeBuildStatus:
+  Файл "cmTC_c27dc.dir\Debug\cmTC_c27dc.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_c27dc.dir\Debug\cmTC_c27dc.tlog\cmTC_c27dc.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_c27dc.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.06
+
+
+Determining if the include file dxgi.h exists passed with the following output:
+Change Dir: D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6d9fe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.7.180.61344 для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 13.09.2018 19:35:37.
+Проект "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_6d9fe.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_6d9fe.dir\Debug\".
+  Создание каталога "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_6d9fe.dir\Debug\cmTC_6d9fe.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_6d9fe.dir\Debug\cmTC_6d9fe.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d9fe.dir\Debug\\" /Fd"cmTC_6d9fe.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.14.26433 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d9fe.dir\Debug\\" /Fd"cmTC_6d9fe.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_6d9fe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_6d9fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/C++/FalcoEngine/Ogre/source/build/SDL2-build/CMakeFiles/CMakeTmp/Debug/cmTC_6d9fe.lib" /MACHINE:X64  /machine:x64 cmTC_6d9fe.dir\Debug\CheckIncludeFile.obj
+  cmTC_6d9fe.vcxproj -> D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\Debug\cmTC_6d9fe.exe
+FinalizeBuildStatus:
+  Файл "cmTC_6d9fe.dir\Debug\cmTC_6d9fe.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_6d9fe.dir\Debug\cmTC_6d9fe.tlog\cmTC_6d9fe.lastbuildstate".
+Сборка проекта "D:\Dev\C++\FalcoEngine\Ogre\source\build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_6d9fe.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.02
+
+

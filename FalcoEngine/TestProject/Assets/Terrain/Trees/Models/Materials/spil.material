@@ -1,0 +1,62 @@
+
+material Terrain/Trees/Models/Materials/spil.material
+{
+	program_shared_parameters
+	{
+		cDiffuseColor vec3 1.000000 1.000000 1.000000
+		cSpecularity float 1.000000
+		cOcclusionFactor float 1.000000
+		cIBLFactor float 1.000000
+		cEmissionFactor float 0.000000
+		cMetalness float 0.500000
+		cReflectance float 0.250000
+		sDiffuseMap int 0
+		sNormalMap int 1
+		sMetallicMap int 2
+		sOcclusionMap int 3
+		sEnvMap int 4
+		sEmissionMap int 5
+	}
+
+	technique Deferred
+	{
+		scheme Deferred
+		pass main
+		{
+
+			preprocessor_defines
+			{
+				define HAS_DIFFUSE on
+				define HAS_NORMAL off
+			}
+
+			vertex_program_ref DeferredShading/post/StandardGBuffer_vs
+			{
+			}
+
+			fragment_program_ref DeferredShading/post/StandardGBuffer_ps
+			{
+				param_named cDiffuseColor float3 1 1 1
+				param_named cMetalness float 0.5
+				param_named cReflectance float 0.25
+				param_named cSpecularity float 1
+			}
+
+			texture_unit diffuseMap
+			{
+				texture_alias diffuseMap
+				texture Terrain/Trees/Textures/trees_spil.tga
+				max_anisotropy 8
+			}
+
+			texture_unit normalMap
+			{
+				texture_alias normalMap
+				texture Terrain/Trees/Textures/trees_spil_bump.tga
+				max_anisotropy 8
+			}
+		}
+
+	}
+
+}
